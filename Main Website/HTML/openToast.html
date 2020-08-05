@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Se7en Spices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/openToast.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:wght@600&family=Dancing+Script:wght@700&family=Kanit&family=Lobster&family=Oxygen&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navigationBar">
+        <ul class="navBarContent">
+            <li class="c1"><i class="fas fa-bars"></i></li>
+            <li class="c2">
+                <h4>Se7en Spices</h4>
+            </li>
+            <li class="c3">Cart<i class="fas fa-cart-plus"></i></li>
+        </ul>
+    </header>
+    <main class="midPart">
+        <div class="container1">
+            <h3 id="Text1">Stuck at home in this pandemic?</h3>
+            <h3 id="Text2">Try our delicious dishes today!</h3>
+        </div>
+        <div class="container2">
+            <img id="Img1" src="Photos/logoOriginal.jpg">
+        </div>
+        <div class="container3">
+            <h1 id="textMenu">Menu:</h1>
+            <div class="dropdown">
+                <div class="menuSection">
+                    <button class="sectionBtn">Open Toast<i class="fas fa-angle-down" style="float: right; margin-right: 10px; margin-top: 5px;"></i></button>
+                    <ul class="sectionS">
+                        <li class="sectionList"><a href="index.html" target="_self">Indian</a></li>
+                        <li class="sectionList"><a href="indianBread.html" target="_self">Indian Bread</a></li>
+                        <li class="sectionList"><a href="sandwich.html" target="_self">Sandwich</a></li>
+                        <li class="sectionList"><a href="pasta.html" target="_self">Pasta/Farineux</a></li>
+                        <li class="sectionList"><a href="openToast.html" target="_self">Open Toast</a></li>
+                        <li class="sectionList">Pizza</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slideShow middle">
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <div class="foodItemContainer s1">
+                        <img id="foodImage" src="Photos/ChiliCheeseToast.jpg">
+                        <h2 id="menuItem">Chesse Chilly Toast (J)</h2>
+                        <h3 id="itemDescription">Buttery bread slice topped with cheese, garlic and spicy. <br>(Two toast pieces)</h3>
+                        <button id="addToCartBtn"><h3 id="buyNOW">BUY NOW!</h3></button>
+                    </div>
+                    <div class="foodItemContainer">
+                        <img id="foodImage" src="Photos/ChilliGarlicToast.jpg">
+                        <h2 id="menuItem">Chilly Garlic Toast (S)(Chef's Special)</h2>
+                        <h3 id="itemDescription">Buttery bread and garlic slice topped with various vegtables which makes it very delicious! <br>(Two toast pieces)</h3>
+                        <button id="addToCartBtn"><h3 id="buyNOW">BUY NOW!</h3></button>
+                    </div>
+                    <div class="foodItemContainer">
+                        <h2 id="menuItem">Chesse Toast (J)</h2>
+                        <h3 id="itemDescription">Classic bread, toasted, topped with blend of cheese. <br>(Two toast pieces)</h3>
+                        <button id="addToCartBtn"><h3 id="buyNOW">BUY NOW!</h3></button>
+                    </div>
+                    <div class="foodItemContainer">
+                        <h2 id="menuItem">Cheese Garlic Toast</h2>
+                        <h3 id="itemDescription">A classic take on garlic blend of cheese.</h3>
+                        <button id="addToCartBtn"><h3 id="buyNOW">BUY NOW!</h3></button>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <label for="slide1" class="bar"></label>
+                    <label for="slide2" class="bar"></label>
+                    <label for="slide3" class="bar"></label>
+                    <label for="slide4" class="bar"></label>
+                </div>
+            </div>
+            <div class="menuInfo">
+                <hr>
+                <h3 id="menuInfo">J: Jain option avaiable.</h3>
+                <h3 id="menuInfo">S: Spicy</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="container4">
+            <div class="aboutContainer">
+                <img id="chefImage" src="Photos/chefImage.jpg">
+                <h2 id="aboutInfo">Interested to know more about our chef?</h2>
+                <button id="toAboutBtn">Click here!</button>
+            </div>
+            <div class="blogContainer">
+                <img id="blogContainerImage" src="Photos/blogContainerImage.jpg">
+                <h2 id="blogInfo">Visit our blog know more about dishes!</h2>
+                <button id="toBlogBtn">Click here!</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>&copy; Se7en Spices.</h1>
+        <h2>Do visit us again!</h2>
+    </footer>
+    <script src="https://kit.fontawesome.com/dc624f07b2.js" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
