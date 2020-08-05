@@ -127,9 +127,19 @@
     .container1 {
         justify-content: center;
         width: 1200px;
+        margin-top: 50px;
         background-color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
+    }
+    #Text1 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #Text2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
     }
     .container2 {
         justify-content: center;
@@ -406,7 +416,7 @@
         font-family: 'Bebas Neue', cursive;
     }
     footer {
-        margin-top: 85px;
+        margin-top: 90px;
         margin-left: auto;
         margin-right: auto;
         width: 1200px;
@@ -419,13 +429,1752 @@
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1200px) {}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .navigationBar {
+        height: 70px;
+        background-color: black;
+        width: 1000px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+    }
+    .navBarContent {
+        color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+    }
+    .navBarContent li {
+        display: inline;
+        font-size: 2.5em;
+        padding: 12px 17px;
+        text-align: center;
+    }
+    .c1 {
+        float: left;
+        margin-top: -8px;
+        margin-left: -40px;
+    }
+    .dropdownO {
+        position: relative;
+        height: 10vh;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+    .sectionBtnO {
+        margin-top: 450px;
+        margin-left: -210px;
+        width: 50px;
+        height: 50px;
+        outline: 0;
+        border: 0;
+        background-color: black;
+        color: white;
+        font-size: 1.1em;
+    }
+    .sectionBtnO:hover {
+        color: gray;
+        cursor: pointer;
+    }
+    .menuSectionO .sectionSO {
+        margin-left: 64px;
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+        font-size: .4em;
+        width: 300px;
+        height: 450px;
+        background: #bdbab3;
+        left: 0px;
+        list-style: none;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.4s ease;
+    }
+    .menuSectionO .sectionListO {
+        margin-left: -40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .menuSectionO .sectionListO:hover {
+        background-color: black;
+        color: white;
+    }
+    .menuSectionO .sectionBtnO:focus+.sectionSO {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(10px);
+    }
+    .c2 h4 {
+        position: absolute;
+        color: white;
+        margin-top: 5px;
+        margin-left: 360px;
+        margin-bottom: 0px;
+        height: 50px;
+        font-size: 1.2em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+    }
+    .c2:hover {
+        cursor: pointer;
+    }
+    .c3 {
+        float: right;
+        margin-top: 0px;
+        font-family: 'Oxygen', sans-serif;
+    }
+    .c3:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    .midPart {
+        position: relative;
+        width: 1000px;
+        height: 200vh;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container1 h3 {
+        justify-content: center;
+        width: 1000px;
+        margin-top: 50px;
+        text-align: center;
+        background-color: white;
+        font-size: 1.7em;
+        font-family: 'Crimson Text', serif;
+    }
+    #Text1 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #Text2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .container2 {
+        justify-content: center;
+        text-align: center;
+        width: 1000px;
+        height: 361px;
+        margin-top: -27px;
+        background-color: black;
+        overflow: hidden;
+    }
+    #Img1 {
+        transform: translateY(-100px);
+    }
+    .container3 {
+        justify-content: center;
+        width: 1000px;
+        height: 420px;
+        margin-top: -31px;
+        background-color: white;
+    }
+    #textMenu {
+        color: black;
+        font-size: 3.5em;
+        letter-spacing: 5px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .dropdown {
+        position: relative;
+        height: 10vh;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+    .sectionBtn {
+        margin-top: 25px;
+        margin-left: -40px;
+        width: 250px;
+        height: 50px;
+        font-family: 'Oxygen', sans-serif;
+        outline: 0;
+        border: 0;
+        font-size: 1.5em;
+    }
+    .menuSection .sectionS {
+        margin-top: 5px;
+        margin-left: -15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+        width: 150px;
+        height: 200px;
+        background: gray;
+        left: 0px;
+        list-style: none;
+        border-radius: 5px;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.4s ease;
+    }
+    .menuSection .sectionList {
+        margin-left: -40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .menuSection .sectionList:hover {
+        background-color: black;
+    }
+    .menuSection .sectionBtn:focus+.sectionS {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0px);
+    }
+    .slideShow {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -80px;
+        width: 900px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .navigation {
+        margin-left: 332px;
+        height: 60px;
+        display: flex;
+        transform: translateX(-50px);
+    }
+    .bar {
+        width: 60px;
+        height: 10px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+        transform: translateY(-20px);
+        transition: 0.4s;
+    }
+    .bar:hover {
+        background: gray;
+    }
+    input[name="slide"] {
+        visibility: hidden;
+    }
+    .slides {
+        width: 722%;
+        height: 100%;
+        display: flex;
+    }
+    .foodItemContainer {
+        text-align: center;
+        transform: translateX(-146px);
+        width: 900px;
+        height: 300px;
+        background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+        border-radius: 5px;
+    }
+    #foodImage {
+        height: 300px;
+        float: left;
+    }
+    #menuItem {
+        color: red;
+        margin-top: -5px;
+        font-size: 2.5em;
+        font-family: 'Kanit', sans-serif;
+    }
+    #itemDescription {
+        margin-top: -30px;
+        color: black;
+        font-size: 1.5em;
+        font-family: 'Oxygen', sans-serif;
+    }
+    #addToCartBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.2em;
+    }
+    #addToCartBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+    }
+    #buyNOW {
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+    }
+    #slide1:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: 0;
+    }
+    #slide2:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -13.84%;
+    }
+    #slide3:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -27.69%;
+    }
+    #slide4:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -41.54%;
+    }
+    #slide5:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -55.39%;
+    }
+    #slide6:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -69.24%;
+    }
+    #slide7:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -83.1%;
+    }
+    .menuInfo {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #menuInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    .container4 {
+        justify-content: center;
+        width: 1000px;
+        height: 600px;
+        margin-top: 105px;
+        background-color: grey;
+    }
+    .aboutContainer {
+        justify-content: center;
+        text-align: center;
+        width: 500px;
+        height: 500px;
+        margin-left: 10px;
+        margin-top: 40px;
+        float: left;
+    }
+    #chefImage {
+        width: 300px;
+        height: 400px;
+    }
+    #aboutInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    #toAboutBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #toAboutBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .blogContainer {
+        justify-content: center;
+        text-align: center;
+        width: 490px;
+        height: 500px;
+        margin-top: 40px;
+        margin-right: 0px;
+        float: right;
+    }
+    #blogContainerImage {
+        width: 300px;
+        height: 400px;
+    }
+    #blogInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    #toBlogBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #toBlogBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', cursive;
+    }
+    footer {
+        margin-top: 85px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+}
 
-@media screen and (min-width: 800px) and (max-width: 1000px) {}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .navigationBar {
+        height: 70px;
+        background-color: black;
+        width: 800px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+    }
+    .navBarContent {
+        color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+    }
+    .navBarContent li {
+        display: inline;
+        font-size: 2.5em;
+        padding: 12px 17px;
+        text-align: center;
+    }
+    .c1 {
+        float: left;
+        margin-top: -8px;
+        margin-left: -40px;
+    }
+    .dropdownO {
+        position: relative;
+        height: 10vh;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+    .sectionBtnO {
+        margin-top: 450px;
+        margin-left: -210px;
+        width: 50px;
+        height: 50px;
+        outline: 0;
+        border: 0;
+        background-color: black;
+        color: white;
+        font-size: 1.1em;
+    }
+    .sectionBtnO:hover {
+        color: gray;
+        cursor: pointer;
+    }
+    .menuSectionO .sectionSO {
+        margin-left: 64px;
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+        font-size: .4em;
+        width: 300px;
+        height: 450px;
+        background: #bdbab3;
+        left: 0px;
+        list-style: none;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.4s ease;
+    }
+    .menuSectionO .sectionListO {
+        margin-left: -40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .menuSectionO .sectionListO:hover {
+        background-color: black;
+        color: white;
+    }
+    .menuSectionO .sectionBtnO:focus+.sectionSO {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(10px);
+    }
+    .c2 h4 {
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 250px;
+        z-index: 4;
+        margin-bottom: 0px;
+        height: 50px;
+        font-size: 1.2em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+    }
+    .c2:hover {
+        cursor: pointer;
+    }
+    .c3 {
+        float: right;
+        margin-top: 5px;
+        font-family: 'Oxygen', sans-serif;
+    }
+    .c3:hover {
+        color: gray;
+        cursor: pointer;
+    }
+    .midPart {
+        position: relative;
+        width: 800px;
+        height: 200vh;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container1 h3 {
+        justify-content: center;
+        width: 800px;
+        margin-top: 50px;
+        text-align: center;
+        background-color: white;
+        font-size: 1.7em;
+        font-family: 'Crimson Text', serif;
+    }
+    #Text1 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #Text2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .container2 {
+        justify-content: center;
+        text-align: center;
+        width: 800px;
+        height: 361px;
+        margin-top: -27px;
+        background-color: black;
+        overflow: hidden;
+    }
+    #Img1 {
+        transform: translateY(-100px);
+    }
+    .container3 {
+        justify-content: center;
+        width: 800px;
+        height: 420px;
+        margin-top: -31px;
+        background-color: white;
+    }
+    #textMenu {
+        color: black;
+        font-size: 3em;
+        letter-spacing: 5px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .dropdown {
+        position: relative;
+        height: 10vh;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+    .sectionBtn {
+        margin-top: 35px;
+        margin-left: 50px;
+        width: 250px;
+        height: 50px;
+        font-family: 'Oxygen', sans-serif;
+        outline: 0;
+        border: 0;
+        font-size: 1.5em;
+    }
+    .menuSection .sectionS {
+        margin-top: 5px;
+        margin-left: 75px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+        width: 150px;
+        height: 200px;
+        background: gray;
+        left: 0px;
+        list-style: none;
+        border-radius: 5px;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.4s ease;
+    }
+    .menuSection .sectionList {
+        margin-left: -40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .menuSection .sectionList:hover {
+        background-color: black;
+    }
+    .menuSection .sectionBtn:focus+.sectionS {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0px);
+    }
+    .slideShow {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -80px;
+        width: 800px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .navigation {
+        margin-left: 332px;
+        height: 60px;
+        display: flex;
+        transform: translateX(-50px);
+    }
+    .bar {
+        width: 60px;
+        height: 10px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+        transform: translateY(-20px);
+        transition: 0.4s;
+    }
+    .bar:hover {
+        background: gray;
+    }
+    input[name="slide"] {
+        visibility: hidden;
+    }
+    .slides {
+        width: 722%;
+        height: 100%;
+        display: flex;
+    }
+    .foodItemContainer {
+        text-align: center;
+        transform: translateX(-146px);
+        width: 800px;
+        height: 300px;
+        background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+        border-radius: 5px;
+    }
+    #foodImage {
+        height: 300px;
+        float: left;
+    }
+    #menuItem {
+        color: red;
+        margin-top: -5px;
+        font-size: 2.3em;
+        font-family: 'Kanit', sans-serif;
+    }
+    #itemDescription {
+        margin-top: -30px;
+        color: black;
+        font-size: 1.3em;
+        font-family: 'Oxygen', sans-serif;
+    }
+    #addToCartBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.2em;
+    }
+    #addToCartBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+    }
+    #buyNOW {
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+    }
+    #slide1:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: 0;
+    }
+    #slide2:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -13.84%;
+    }
+    #slide3:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -27.69%;
+    }
+    #slide4:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -41.54%;
+    }
+    #slide5:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -55.39%;
+    }
+    #slide6:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -69.24%;
+    }
+    #slide7:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -83.1%;
+    }
+    .menuInfo {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #menuInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    .container4 {
+        justify-content: center;
+        width: 800px;
+        height: 530px;
+        margin-top: 90px;
+        background-color: grey;
+    }
+    .aboutContainer {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 40px;
+        float: left;
+    }
+    #chefImage {
+        width: 200px;
+        height: 300px;
+    }
+    #aboutInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    #toAboutBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #toAboutBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .blogContainer {
+        justify-content: center;
+        text-align: center;
+        width: 390px;
+        height: 400px;
+        margin-top: 40px;
+        margin-right: 0px;
+        float: right;
+    }
+    #blogContainerImage {
+        width: 200px;
+        height: 300px;
+    }
+    #blogInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    #toBlogBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #toBlogBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', cursive;
+    }
+    footer {
+        margin-top: -22px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+}
 
-@media screen and (min-width: 600px) and (max-width: 800px) {}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .navigationBar {
+        height: 70px;
+        background-color: black;
+        width: 600px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+    }
+    .navBarContent {
+        color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+    }
+    .navBarContent li {
+        display: inline;
+        font-size: 2.5em;
+        padding: 12px 17px;
+        text-align: center;
+    }
+    .c1 {
+        float: left;
+        margin-top: -8px;
+        margin-left: -40px;
+    }
+    .dropdownO {
+        position: relative;
+        height: 10vh;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+    .sectionBtnO {
+        margin-top: 450px;
+        margin-left: -210px;
+        width: 50px;
+        height: 50px;
+        outline: 0;
+        border: 0;
+        background-color: black;
+        color: white;
+        font-size: 1.1em;
+    }
+    .sectionBtnO:hover {
+        color: gray;
+        cursor: pointer;
+    }
+    .menuSectionO .sectionSO {
+        margin-left: 64px;
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+        font-size: .4em;
+        width: 300px;
+        height: 450px;
+        background: #bdbab3;
+        left: 0px;
+        list-style: none;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.4s ease;
+    }
+    .menuSectionO .sectionListO {
+        margin-left: -40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .menuSectionO .sectionListO:hover {
+        background-color: black;
+        color: white;
+    }
+    .menuSectionO .sectionBtnO:focus+.sectionSO {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(10px);
+    }
+    .c2 h4 {
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 150px;
+        z-index: 4;
+        margin-bottom: 0px;
+        height: 50px;
+        font-size: 1.2em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+    }
+    .c2:hover {
+        cursor: pointer;
+    }
+    .c3 {
+        float: right;
+        margin-top: 0px;
+        font-family: 'Oxygen', sans-serif;
+    }
+    .c3:hover {
+        color: gray;
+        cursor: pointer;
+    }
+    .midPart {
+        position: relative;
+        width: 600px;
+        height: 200vh;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container1 h3 {
+        justify-content: center;
+        width: 600px;
+        margin-top: 50px;
+        text-align: center;
+        background-color: white;
+        font-size: 1.7em;
+        font-family: 'Crimson Text', serif;
+    }
+    #Text1 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #Text2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .container2 {
+        justify-content: center;
+        text-align: center;
+        width: 600px;
+        height: 361px;
+        margin-top: -27px;
+        background-color: black;
+        overflow: hidden;
+    }
+    #Img1 {
+        transform: translateY(-100px);
+    }
+    .container3 {
+        justify-content: center;
+        width: 600px;
+        height: 420px;
+        margin-top: -31px;
+        background-color: white;
+    }
+    #textMenu {
+        color: black;
+        font-size: 3em;
+        letter-spacing: 5px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .dropdown {
+        position: relative;
+        height: 10vh;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+    .sectionBtn {
+        margin-top: 35px;
+        margin-left: 170px;
+        width: 250px;
+        height: 50px;
+        font-family: 'Oxygen', sans-serif;
+        outline: 0;
+        border: 0;
+        font-size: 1.5em;
+    }
+    .menuSection .sectionS {
+        margin-top: 5px;
+        margin-left: 195px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+        width: 150px;
+        height: 200px;
+        background: gray;
+        left: 0px;
+        list-style: none;
+        border-radius: 5px;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.4s ease;
+    }
+    .menuSection .sectionList {
+        margin-left: -40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .menuSection .sectionList:hover {
+        background-color: black;
+    }
+    .menuSection .sectionBtn:focus+.sectionS {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0px);
+    }
+    .slideShow {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -80px;
+        width: 600px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .navigation {
+        margin-left: 332px;
+        height: 60px;
+        display: flex;
+        transform: translateX(0px);
+    }
+    .bar {
+        width: 60px;
+        height: 10px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+        transform: translateY(-20px);
+        transition: 0.4s;
+    }
+    .bar:hover {
+        background: gray;
+    }
+    input[name="slide"] {
+        visibility: hidden;
+    }
+    .slides {
+        width: 722%;
+        height: 100%;
+        display: flex;
+    }
+    .foodItemContainer {
+        text-align: center;
+        transform: translateX(-146px);
+        width: 600px;
+        height: 300px;
+        background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+        border-radius: 5px;
+    }
+    #foodImage {
+        height: 300px;
+        float: left;
+    }
+    #menuItem {
+        color: red;
+        margin-top: -5px;
+        font-size: 2.3em;
+        font-family: 'Kanit', sans-serif;
+    }
+    #itemDescription {
+        margin-top: -30px;
+        color: black;
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+    }
+    #addToCartBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.2em;
+    }
+    #addToCartBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+    }
+    #buyNOW {
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+    }
+    #slide1:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: 0;
+    }
+    #slide2:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -13.84%;
+    }
+    #slide3:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -27.69%;
+    }
+    #slide4:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -41.54%;
+    }
+    #slide5:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -55.39%;
+    }
+    #slide6:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -69.24%;
+    }
+    #slide7:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -83.1%;
+    }
+    .menuInfo {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #menuInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    .container4 {
+        justify-content: center;
+        width: 600px;
+        height: 530px;
+        margin-top: 90px;
+        background-color: grey;
+    }
+    .aboutContainer {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 40px;
+        float: left;
+    }
+    #chefImage {
+        width: 200px;
+        height: 300px;
+    }
+    #aboutInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    #toAboutBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #toAboutBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .blogContainer {
+        justify-content: center;
+        text-align: center;
+        width: 290px;
+        height: 300px;
+        margin-top: 40px;
+        margin-right: 0px;
+        float: right;
+    }
+    #blogContainerImage {
+        width: 200px;
+        height: 300px;
+    }
+    #blogInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    #toBlogBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #toBlogBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', cursive;
+    }
+    footer {
+        margin-top: -22px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+}
 
-@media screen and (min-width: 400px) and (max-width: 600px) {}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .navigationBar {
+        height: 60px;
+        background-color: black;
+        width: 400px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+    }
+    .navBarContent {
+        color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+    }
+    .navBarContent li {
+        display: inline;
+        font-size: 2.5em;
+        padding: 12px 17px;
+        text-align: center;
+    }
+    .c1 {
+        float: left;
+        margin-top: -8px;
+        margin-left: -40px;
+    }
+    .dropdownO {
+        position: relative;
+        height: 10vh;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+    .sectionBtnO {
+        margin-top: 440px;
+        margin-left: -220px;
+        width: 50px;
+        height: 50px;
+        outline: 0;
+        border: 0;
+        background-color: black;
+        color: white;
+        font-size: .8em;
+    }
+    .sectionBtnO:hover {
+        color: gray;
+        cursor: pointer;
+    }
+    .menuSectionO .sectionSO {
+        margin-left: 64px;
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+        font-size: .4em;
+        width: 300px;
+        height: 450px;
+        background: #bdbab3;
+        left: 0px;
+        list-style: none;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.4s ease;
+    }
+    .menuSectionO .sectionListO {
+        margin-left: -40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .menuSectionO .sectionListO:hover {
+        background-color: black;
+        color: white;
+    }
+    .menuSectionO .sectionBtnO:focus+.sectionSO {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(10px);
+    }
+    .c2 h4 {
+        position: absolute;
+        color: white;
+        margin-top: -80px;
+        margin-right: 0px;
+        margin-left: 70px;
+        z-index: 4;
+        margin-bottom: 0px;
+        height: 50px;
+        font-size: 1em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+    }
+    .c2:hover {
+        cursor: pointer;
+    }
+    .c3 {
+        float: right;
+        margin-top: -95px;
+        font-family: 'Oxygen', sans-serif;
+    }
+    .c3:hover {
+        color: gray;
+        cursor: pointer;
+    }
+    .midPart {
+        position: relative;
+        width: 400px;
+        height: 200vh;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container1 h3 {
+        justify-content: center;
+        width: 400px;
+        margin-top: 50px;
+        text-align: center;
+        background-color: white;
+        font-size: 1.7em;
+        font-family: 'Crimson Text', serif;
+    }
+    #Text1 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #Text2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .container2 {
+        justify-content: center;
+        text-align: center;
+        width: 400px;
+        height: 300px;
+        margin-top: -27px;
+        background-color: black;
+        overflow: hidden;
+    }
+    #Img1 {
+        width: 400px;
+        height: 361px;
+        transform: translateY(-20px);
+    }
+    .container3 {
+        justify-content: center;
+        width: 400px;
+        height: 420px;
+        margin-top: -31px;
+        background-color: white;
+    }
+    #textMenu {
+        color: black;
+        margin-top: 50px;
+        font-size: 2.5em;
+        letter-spacing: 5px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .dropdown {
+        position: relative;
+        height: 10vh;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sectionBtn {
+        margin-bottom: 170px;
+        margin-left: 270px;
+        width: 250px;
+        height: 40px;
+        font-family: 'Oxygen', sans-serif;
+        outline: 0;
+        border: 0;
+        font-size: 1.5em;
+    }
+    .menuSection .sectionS {
+        position: absolute;
+        margin-top: -160px;
+        margin-left: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+        width: 150px;
+        height: 200px;
+        background: gray;
+        left: 0px;
+        list-style: none;
+        border-radius: 5px;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.4s ease;
+        z-index: 1;
+    }
+    .menuSection .sectionList {
+        margin-left: -40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .menuSection .sectionList:hover {
+        background-color: black;
+    }
+    .menuSection .sectionBtn:focus+.sectionS {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0px);
+    }
+    .slideShow {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -80px;
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .navigation {
+        margin-left: 332px;
+        height: 60px;
+        width: 100px;
+        display: flex;
+        transform: translateX(-100px);
+    }
+    .bar {
+        width: 1px;
+        height: 10px;
+        border: 2px solid black;
+        cursor: pointer;
+        margin-left: 10px;
+        transform: translateY(-20px);
+        transition: 0.4s;
+    }
+    .bar:hover {
+        background: gray;
+    }
+    input[name="slide"] {
+        visibility: hidden;
+    }
+    .slides {
+        width: 722%;
+        height: 100%;
+        display: flex;
+    }
+    .foodItemContainer {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-146px);
+        width: 400px;
+        height: 300px;
+        background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+        border-radius: 5px;
+    }
+    #foodImage {
+        height: 300px;
+        width: 150px;
+        float: left;
+    }
+    #menuItem {
+        color: red;
+        margin-top: -5px;
+        margin-bottom: 60px;
+        font-size: 1.5em;
+        font-family: 'Kanit', sans-serif;
+    }
+    #itemDescription {
+        margin-top: -30px;
+        margin-bottom: 50px;
+        color: black;
+        font-size: .8em;
+        font-family: 'Oxygen', sans-serif;
+    }
+    #addToCartBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1em;
+    }
+    #addToCartBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+    }
+    #buyNOW {
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+    }
+    #slide1:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: 0.35%;
+    }
+    #slide2:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -13.81%;
+    }
+    #slide3:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -27.65%;
+    }
+    #slide4:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -41.54%;
+    }
+    #slide5:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -55.39%;
+    }
+    #slide6:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -69.24%;
+    }
+    #slide7:checked~.s1 {
+        transition: ease-in 1s;
+        margin-left: -83.1%;
+    }
+    .menuInfo {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #menuInfo {
+        font-family: 'Oxygen', sans-serif;
+    }
+    .container4 {
+        justify-content: center;
+        margin-top: -10px;
+        width: 400px;
+        height: 400px;
+        margin-top: 90px;
+        background-color: grey;
+    }
+    .aboutContainer {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 40px;
+        float: left;
+    }
+    #chefImage {
+        width: 140px;
+        height: 200px;
+    }
+    #aboutInfo {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 1em;
+    }
+    #toAboutBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #toAboutBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .blogContainer {
+        justify-content: center;
+        text-align: center;
+        width: 190px;
+        height: 200px;
+        margin-top: 40px;
+        margin-right: 0px;
+        float: right;
+    }
+    #blogContainerImage {
+        width: 150px;
+        height: 200px;
+    }
+    #blogInfo {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 1em;
+    }
+    #toBlogBtn {
+        background-color: blue;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #toBlogBtn:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+        font-family: 'Bebas Neue', cursive;
+    }
+    footer {
+        margin-top: -200px;
+        margin-bottom: -50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+}
 
 @media screen and (min-width: 300px) and (max-width: 400px) {}
 
