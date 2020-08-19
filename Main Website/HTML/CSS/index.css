@@ -112,8 +112,7 @@
         font-family: 'Oxygen', sans-serif;
     }
     .c3:hover {
-        background-color: white;
-        color: black;
+        color: gray;
         cursor: pointer;
     }
     .midPart {
@@ -270,23 +269,28 @@
         background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
         border-radius: 5px;
     }
-    #foodImage {
+    .foodImage {
         height: 300px;
         float: left;
     }
-    #menuItem {
+    .menuItem {
         color: red;
         margin-top: -5px;
         font-size: 2.5em;
         font-family: 'Kanit', sans-serif;
     }
-    #itemDescription {
+    .itemDescription {
         margin-top: -30px;
         color: black;
         font-size: 1.5em;
         font-family: 'Oxygen', sans-serif;
     }
-    #addToCartBtn {
+    .itemPrice {
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+        color: black;
+    }
+    .addToCartBtn {
         background-color: blue;
         color: white;
         border: none;
@@ -294,16 +298,13 @@
         width: 200px;
         border-radius: 10px;
         font-family: 'Bebas Neue', cursive;
-        font-size: 1.2em;
+        font-size: 1.5em;
+        letter-spacing: 2px;
     }
-    #addToCartBtn:hover {
+    .addToCartBtn:hover {
         background-color: lightblue;
         color: black;
         cursor: pointer;
-    }
-    #buyNOW {
-        margin-top: 0;
-        margin-bottom: 0;
         letter-spacing: 2px;
     }
     #slide1:checked~.s1 {
@@ -342,11 +343,124 @@
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
     }
+    .section-header {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: normal;
+        color: #333;
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 150px;
+    }
+    .cart-header {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.25em;
+        color: #333;
+    }
+    .cart-column {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid black;
+        margin-right: 1.5em;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .cart-row {
+        display: flex;
+    }
+    .cart-item {
+        width: 45%;
+    }
+    .cart-price {
+        width: 20%;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        color: #333;
+    }
+    .cart-quantity {
+        width: 35%;
+    }
+    .cart-item-title {
+        color: #333;
+        margin-left: .5em;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-item-image {
+        width: 75px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .btn-danger {
+        color: white;
+        background-color: #EB5757;
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: .5em;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    .btn-danger:hover {
+        background-color: #CC4C4C;
+    }
+    .cart-quantity-input {
+        height: 34px;
+        width: 50px;
+        border-radius: 5px;
+        border: 1px solid #56CCF2;
+        background-color: #eee;
+        color: #333;
+        padding: 0;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        margin-right: 25px;
+    }
+    .cart-row:last-child {
+        border-bottom: 1px solid black;
+    }
+    .cart-row:last-child .cart-column {
+        border: none;
+    }
+    .cart-total {
+        text-align: end;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .cart-total-title {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: black;
+        margin-right: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-total-price {
+        color: #333;
+        font-size: 2em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .btn-purchase {
+        display: block;
+        margin: 40px auto 80px auto;
+        font-size: 1.75em;
+        font-family: 'Fira Sans', sans-serif;
+        background-color: black;
+        color: white;
+        outline: 0;
+        border: 0;
+    }
+    .btn-purchase:hover {
+        background-color: grey;
+        color: white;
+    }
     .container4 {
         justify-content: center;
         width: 1200px;
         height: 600px;
         margin-top: 105px;
+        margin-bottom: -10px;
         background-color: grey;
     }
     .aboutContainer {
@@ -416,7 +530,6 @@
         font-family: 'Bebas Neue', cursive;
     }
     footer {
-        margin-top: 90px;
         margin-left: auto;
         margin-right: auto;
         width: 1200px;
@@ -534,8 +647,9 @@
         font-weight: 100;
         font-family: 'Lobster', cursive;
     }
-    .c2:hover {
+    .c2 h4:hover {
         cursor: pointer;
+        color: gray;
     }
     .c3 {
         float: right;
@@ -702,23 +816,28 @@
         background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
         border-radius: 5px;
     }
-    #foodImage {
+    .foodImage {
         height: 300px;
         float: left;
     }
-    #menuItem {
+    .menuItem {
         color: red;
         margin-top: -5px;
         font-size: 2.5em;
         font-family: 'Kanit', sans-serif;
     }
-    #itemDescription {
+    .itemDescription {
         margin-top: -30px;
         color: black;
         font-size: 1.5em;
         font-family: 'Oxygen', sans-serif;
     }
-    #addToCartBtn {
+    .itemPrice {
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+        color: black;
+    }
+    .addToCartBtn {
         background-color: blue;
         color: white;
         border: none;
@@ -726,16 +845,12 @@
         width: 200px;
         border-radius: 10px;
         font-family: 'Bebas Neue', cursive;
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
-    #addToCartBtn:hover {
+    .addToCartBtn:hover {
         background-color: lightblue;
         color: black;
         cursor: pointer;
-    }
-    #buyNOW {
-        margin-top: 0;
-        margin-bottom: 0;
         letter-spacing: 2px;
     }
     #slide1:checked~.s1 {
@@ -774,11 +889,124 @@
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
     }
+    .section-header {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: normal;
+        color: #333;
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 150px;
+    }
+    .cart-header {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.25em;
+        color: #333;
+    }
+    .cart-column {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid black;
+        margin-right: 1.5em;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .cart-row {
+        display: flex;
+    }
+    .cart-item {
+        width: 45%;
+    }
+    .cart-price {
+        width: 20%;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        color: #333;
+    }
+    .cart-quantity {
+        width: 35%;
+    }
+    .cart-item-title {
+        color: #333;
+        margin-left: .5em;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-item-image {
+        width: 75px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .btn-danger {
+        color: white;
+        background-color: #EB5757;
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: .5em;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    .btn-danger:hover {
+        background-color: #CC4C4C;
+    }
+    .cart-quantity-input {
+        height: 34px;
+        width: 50px;
+        border-radius: 5px;
+        border: 1px solid #56CCF2;
+        background-color: #eee;
+        color: #333;
+        padding: 0;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        margin-right: 25px;
+    }
+    .cart-row:last-child {
+        border-bottom: 1px solid black;
+    }
+    .cart-row:last-child .cart-column {
+        border: none;
+    }
+    .cart-total {
+        text-align: end;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .cart-total-title {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: black;
+        margin-right: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-total-price {
+        color: #333;
+        font-size: 2em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .btn-purchase {
+        display: block;
+        margin: 40px auto 80px auto;
+        font-size: 1.75em;
+        font-family: 'Fira Sans', sans-serif;
+        background-color: black;
+        color: white;
+        outline: 0;
+        border: 0;
+    }
+    .btn-purchase:hover {
+        background-color: grey;
+        color: white;
+    }
     .container4 {
         justify-content: center;
         width: 1000px;
         height: 600px;
-        margin-top: 105px;
+        margin-top: 50px;
+        margin-bottom: 0px;
         background-color: grey;
     }
     .aboutContainer {
@@ -848,7 +1076,6 @@
         font-family: 'Bebas Neue', cursive;
     }
     footer {
-        margin-top: 85px;
         margin-left: auto;
         margin-right: auto;
         width: 1000px;
@@ -1135,23 +1362,28 @@
         background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
         border-radius: 5px;
     }
-    #foodImage {
+    .foodImage {
         height: 300px;
         float: left;
     }
-    #menuItem {
+    .menuItem {
         color: red;
         margin-top: -5px;
         font-size: 2.3em;
         font-family: 'Kanit', sans-serif;
     }
-    #itemDescription {
+    .itemDescription {
         margin-top: -30px;
         color: black;
         font-size: 1.3em;
         font-family: 'Oxygen', sans-serif;
     }
-    #addToCartBtn {
+    .itemPrice {
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+        color: black;
+    }
+    .addToCartBtn {
         background-color: blue;
         color: white;
         border: none;
@@ -1161,7 +1393,7 @@
         font-family: 'Bebas Neue', cursive;
         font-size: 1.2em;
     }
-    #addToCartBtn:hover {
+    .addToCartBtn:hover {
         background-color: lightblue;
         color: black;
         cursor: pointer;
@@ -1207,11 +1439,124 @@
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
     }
+    .section-header {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: normal;
+        color: #333;
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 150px;
+    }
+    .cart-header {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.25em;
+        color: #333;
+    }
+    .cart-column {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid black;
+        margin-right: 1.5em;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .cart-row {
+        display: flex;
+    }
+    .cart-item {
+        width: 45%;
+    }
+    .cart-price {
+        width: 20%;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        color: #333;
+    }
+    .cart-quantity {
+        width: 35%;
+    }
+    .cart-item-title {
+        color: #333;
+        margin-left: .5em;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-item-image {
+        width: 75px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .btn-danger {
+        color: white;
+        background-color: #EB5757;
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: .5em;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    .btn-danger:hover {
+        background-color: #CC4C4C;
+    }
+    .cart-quantity-input {
+        height: 34px;
+        width: 50px;
+        border-radius: 5px;
+        border: 1px solid #56CCF2;
+        background-color: #eee;
+        color: #333;
+        padding: 0;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        margin-right: 25px;
+    }
+    .cart-row:last-child {
+        border-bottom: 1px solid black;
+    }
+    .cart-row:last-child .cart-column {
+        border: none;
+    }
+    .cart-total {
+        text-align: end;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .cart-total-title {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: black;
+        margin-right: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-total-price {
+        color: #333;
+        font-size: 2em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .btn-purchase {
+        display: block;
+        margin: 40px auto 80px auto;
+        font-size: 1.75em;
+        font-family: 'Fira Sans', sans-serif;
+        background-color: black;
+        color: white;
+        outline: 0;
+        border: 0;
+    }
+    .btn-purchase:hover {
+        background-color: grey;
+        color: white;
+    }
     .container4 {
         justify-content: center;
         width: 800px;
         height: 530px;
-        margin-top: 90px;
+        margin-top: 50px;
+        margin-bottom: -10px;
         background-color: grey;
     }
     .aboutContainer {
@@ -1282,7 +1627,6 @@
         font-family: 'Bebas Neue', cursive;
     }
     footer {
-        margin-top: -22px;
         margin-left: auto;
         margin-right: auto;
         width: 800px;
@@ -1563,46 +1907,45 @@
     }
     .foodItemContainer {
         text-align: center;
+        align-items: center;
         transform: translateX(-146px);
         width: 600px;
         height: 300px;
         background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
         border-radius: 5px;
     }
-    #foodImage {
+    .foodImage {
         height: 300px;
         float: left;
     }
-    #menuItem {
+    .menuItem {
         color: red;
-        margin-top: -5px;
-        font-size: 2.3em;
+        margin-top: 5px;
+        font-size: 1.3em;
+        margin-top: 10px;
+        margin-bottom: 40px;
         font-family: 'Kanit', sans-serif;
     }
-    #itemDescription {
+    .itemDescription {
         margin-top: -30px;
         color: black;
-        font-size: 1em;
+        font-size: .9em;
         font-family: 'Oxygen', sans-serif;
     }
-    #addToCartBtn {
+    .addToCartBtn {
         background-color: blue;
         color: white;
         border: none;
-        height: 50px;
-        width: 200px;
+        height: 40px;
+        width: 150px;
         border-radius: 10px;
         font-family: 'Bebas Neue', cursive;
         font-size: 1.2em;
     }
-    #addToCartBtn:hover {
+    .addToCartBtn:hover {
         background-color: lightblue;
         color: black;
         cursor: pointer;
-    }
-    #buyNOW {
-        margin-top: 0;
-        margin-bottom: 0;
         letter-spacing: 2px;
     }
     #slide1:checked~.s1 {
@@ -1641,11 +1984,124 @@
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
     }
+    .section-header {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: normal;
+        color: #333;
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 150px;
+    }
+    .cart-header {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.25em;
+        color: #333;
+    }
+    .cart-column {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid black;
+        margin-right: 1.5em;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .cart-row {
+        display: flex;
+    }
+    .cart-item {
+        width: 45%;
+    }
+    .cart-price {
+        width: 20%;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        color: #333;
+    }
+    .cart-quantity {
+        width: 35%;
+    }
+    .cart-item-title {
+        color: #333;
+        margin-left: .5em;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-item-image {
+        width: 75px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .btn-danger {
+        color: white;
+        background-color: #EB5757;
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: .5em;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    .btn-danger:hover {
+        background-color: #CC4C4C;
+    }
+    .cart-quantity-input {
+        height: 34px;
+        width: 50px;
+        border-radius: 5px;
+        border: 1px solid #56CCF2;
+        background-color: #eee;
+        color: #333;
+        padding: 0;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        margin-right: 25px;
+    }
+    .cart-row:last-child {
+        border-bottom: 1px solid black;
+    }
+    .cart-row:last-child .cart-column {
+        border: none;
+    }
+    .cart-total {
+        text-align: end;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .cart-total-title {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: black;
+        margin-right: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-total-price {
+        color: #333;
+        font-size: 2em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .btn-purchase {
+        display: block;
+        margin: 40px auto 80px auto;
+        font-size: 1.75em;
+        font-family: 'Fira Sans', sans-serif;
+        background-color: black;
+        color: white;
+        outline: 0;
+        border: 0;
+    }
+    .btn-purchase:hover {
+        background-color: grey;
+        color: white;
+    }
     .container4 {
         justify-content: center;
         width: 600px;
         height: 530px;
-        margin-top: 90px;
+        margin-top: 50px;
+        margin-bottom: -10px;
         background-color: grey;
     }
     .aboutContainer {
@@ -1716,7 +2172,6 @@
         font-family: 'Bebas Neue', cursive;
     }
     footer {
-        margin-top: -22px;
         margin-left: auto;
         margin-right: auto;
         width: 600px;
@@ -1977,19 +2432,20 @@
         height: 60px;
         width: 100px;
         display: flex;
-        transform: translateX(-100px);
+        transform: translateX(-150px);
     }
     .bar {
         width: 1px;
-        height: 10px;
-        border: 2px solid black;
+        height: 5px;
+        border: 10px solid black;
         cursor: pointer;
         margin-left: 10px;
-        transform: translateY(-20px);
+        transform: translateY(-30px);
         transition: 0.4s;
     }
     .bar:hover {
         background: gray;
+        border: 10px solid grey;
     }
     input[name="slide"] {
         visibility: hidden;
@@ -2009,26 +2465,26 @@
         background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
         border-radius: 5px;
     }
-    #foodImage {
+    .foodImage {
         height: 300px;
         width: 150px;
         float: left;
     }
-    #menuItem {
+    .menuItem {
         color: red;
         margin-top: -5px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         font-size: 1.5em;
         font-family: 'Kanit', sans-serif;
     }
-    #itemDescription {
+    .itemDescription {
         margin-top: -30px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         color: black;
         font-size: .8em;
         font-family: 'Oxygen', sans-serif;
     }
-    #addToCartBtn {
+    .addToCartBtn {
         background-color: blue;
         color: white;
         border: none;
@@ -2038,14 +2494,10 @@
         font-family: 'Bebas Neue', cursive;
         font-size: 1em;
     }
-    #addToCartBtn:hover {
+    .addToCartBtn:hover {
         background-color: lightblue;
         color: black;
         cursor: pointer;
-    }
-    #buyNOW {
-        margin-top: 0;
-        margin-bottom: 0;
         letter-spacing: 2px;
     }
     #slide1:checked~.s1 {
@@ -2084,12 +2536,125 @@
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
     }
+    .section-header {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: normal;
+        color: #333;
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 150px;
+    }
+    .cart-header {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.25em;
+        color: #333;
+    }
+    .cart-column {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid black;
+        margin-right: 1.5em;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .cart-row {
+        display: flex;
+    }
+    .cart-item {
+        width: 45%;
+    }
+    .cart-price {
+        width: 20%;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        color: #333;
+    }
+    .cart-quantity {
+        width: 35%;
+    }
+    .cart-item-title {
+        color: #333;
+        margin-left: .5em;
+        font-size: .9em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-item-image {
+        width: 75px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .btn-danger {
+        color: white;
+        background-color: #EB5757;
+        border: none;
+        width: 50px;
+        height: 30px;
+        border-radius: .4em;
+        font-size: .7em;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    .btn-danger:hover {
+        background-color: #CC4C4C;
+    }
+    .cart-quantity-input {
+        height: 34px;
+        width: 50px;
+        border-radius: 5px;
+        border: 1px solid #56CCF2;
+        background-color: #eee;
+        color: #333;
+        padding: 0;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Raleway', sans-serif;
+        margin-right: 25px;
+    }
+    .cart-row:last-child {
+        border-bottom: 1px solid black;
+    }
+    .cart-row:last-child .cart-column {
+        border: none;
+    }
+    .cart-total {
+        text-align: end;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .cart-total-title {
+        font-weight: bold;
+        font-size: 1.3em;
+        color: black;
+        margin-right: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cart-total-price {
+        color: #333;
+        font-size: 1.5em;
+        font-family: 'Raleway', sans-serif;
+    }
+    .btn-purchase {
+        display: block;
+        margin: 40px auto 80px auto;
+        font-size: 1.75em;
+        font-family: 'Fira Sans', sans-serif;
+        background-color: black;
+        color: white;
+        outline: 0;
+        border: 0;
+    }
+    .btn-purchase:hover {
+        background-color: grey;
+        color: white;
+    }
     .container4 {
         justify-content: center;
         margin-top: -10px;
         width: 400px;
         height: 400px;
-        margin-top: 90px;
+        margin-top: 50px;
+        margin-bottom: -10px;
         background-color: grey;
     }
     .aboutContainer {
@@ -2162,7 +2727,6 @@
         font-family: 'Bebas Neue', cursive;
     }
     footer {
-        margin-top: -200px;
         margin-bottom: -50px;
         margin-left: auto;
         margin-right: auto;
