@@ -238,7 +238,7 @@
         margin-left: 332px;
         height: 60px;
         display: flex;
-        transform: translateX(-50px);
+        transform: translateX(4px);
     }
     .bar {
         width: 60px;
@@ -276,13 +276,13 @@
     .menuItem {
         color: red;
         margin-top: -5px;
-        font-size: 2.5em;
+        font-size: 2.3em;
         font-family: 'Kanit', sans-serif;
     }
     .itemDescription {
         margin-top: -30px;
         color: black;
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-family: 'Oxygen', sans-serif;
     }
     .itemPrice {
@@ -785,7 +785,7 @@
         margin-left: 332px;
         height: 60px;
         display: flex;
-        transform: translateX(-50px);
+        transform: translateX(4px);
     }
     .bar {
         width: 60px;
@@ -822,14 +822,14 @@
     }
     .menuItem {
         color: red;
-        margin-top: -5px;
-        font-size: 2.5em;
+        margin-top: 10px;
+        font-size: 2em;
         font-family: 'Kanit', sans-serif;
     }
     .itemDescription {
         margin-top: -30px;
         color: black;
-        font-size: 1.5em;
+        font-size: 1em;
         font-family: 'Oxygen', sans-serif;
     }
     .itemPrice {
@@ -1006,7 +1006,7 @@
         width: 1000px;
         height: 600px;
         margin-top: 50px;
-        margin-bottom: 0px;
+        margin-bottom: -10px;
         background-color: grey;
     }
     .aboutContainer {
@@ -1249,7 +1249,7 @@
         justify-content: center;
         width: 800px;
         height: 420px;
-        margin-top: -31px;
+        margin-top: -21px;
         background-color: white;
     }
     #textMenu {
@@ -1331,7 +1331,7 @@
         margin-left: 332px;
         height: 60px;
         display: flex;
-        transform: translateX(-50px);
+        transform: translateX(4px);
     }
     .bar {
         width: 60px;
@@ -1368,14 +1368,14 @@
     }
     .menuItem {
         color: red;
-        margin-top: -5px;
-        font-size: 2.3em;
+        margin-top: 10px;
+        font-size: 2em;
         font-family: 'Kanit', sans-serif;
     }
     .itemDescription {
         margin-top: -30px;
         color: black;
-        font-size: 1.3em;
+        font-size: 1em;
         font-family: 'Oxygen', sans-serif;
     }
     .itemPrice {

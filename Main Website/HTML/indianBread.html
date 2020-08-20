@@ -58,10 +58,11 @@
                 <div class="slides">
                     <input type="radio" name="slide" id="slide1" checked>
                     <div class="foodItemContainer s1">
-                        <img id="foodImage" src="Photos/LacchaParatha.jpg">
-                        <h2 id="menuItem">Laccha Paratha</h2>
-                        <h3 id="itemDescription">A multi layered shallow fried north Indian flat bread, is an epitome of cooking art which tells us how one can make delicious and tempting food from common unassuming ingredients by just deploying a new technique.</h3>
-                        <button id="addToCartBtn"><h3 id="buyNOW">30&#8377;/ADD TO CART</h3></button>
+                        <img class="foodImage" src="Photos/LacchaParatha.jpg">
+                        <h2 class="menuItem">Laccha Paratha</h2>
+                        <h3 class="itemDescription">A multi layered shallow fried north Indian flat bread, is an epitome of cooking art which tells us how one can make delicious and tempting food from common unassuming ingredients by just deploying a new technique.</h3>
+                        <h3 class="itemPrice">30&#8377;</h3>
+                        <button class="addToCartBtn">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="navigation">
@@ -75,6 +76,23 @@
                 <hr>
             </div>
         </div>
+        <div>
+            <section class="container content-section">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">0&#8377;</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+        </div>
         <div class="container4">
             <div class="aboutContainer">
                 <img id="chefImage" src="Photos/chefImage.jpg">
@@ -87,11 +105,11 @@
                 <button id="toBlogBtn">Click here!</button>
             </div>
         </div>
+        <footer>
+            <h1>&copy; Se7en Spices.</h1>
+            <h2>Do visit us again!</h2>
+        </footer>
     </main>
-    <footer>
-        <h1>&copy; Se7en Spices.</h1>
-        <h2>Do visit us again!</h2>
-    </footer>
     <script src="https://kit.fontawesome.com/dc624f07b2.js" crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
 </body>

@@ -61,26 +61,32 @@
                     <input type="radio" name="slide" id="slide3">
                     <input type="radio" name="slide" id="slide4">
                     <div class="foodItemContainer s1">
-                        <img id="foodImage" src="Photos/ChiliCheeseToast.jpg">
-                        <h2 id="menuItem">Chesse Chilly Toast (J)</h2>
-                        <h3 id="itemDescription">Buttery bread slice topped with cheese, garlic and spicy. <br>(Two toast pieces)</h3>
-                        <button id="addToCartBtn"><h3 id="buyNOW">80&#8377;/ADD TO CART</h3></button>
+                        <img class="foodImage" src="Photos/ChiliCheeseToast.jpg">
+                        <h2 class="menuItem">Chesse Chilly Toast (J)</h2>
+                        <h3 class="itemDescription">Buttery bread slice topped with cheese, garlic and spicy. <br>(Two toast pieces)</h3>
+                        <h3 class="itemPrice">80&#8377;</h3>
+                        <button class="addToCartBtn">ADD TO CART</button>
                     </div>
                     <div class="foodItemContainer">
-                        <img id="foodImage" src="Photos/ChilliGarlicToast.jpg">
-                        <h2 id="menuItem">Chilly Garlic Toast (S)(Chef's Special)</h2>
-                        <h3 id="itemDescription">Buttery bread and garlic slice topped with various vegtables which makes it very delicious! <br>(Two toast pieces)</h3>
-                        <button id="addToCartBtn"><h3 id="buyNOW">90&#8377;/ADD TO CART</h3></button>
+                        <img class="foodImage" src="Photos/ChilliGarlicToast.jpg">
+                        <h2 class="menuItem">Chilly Garlic Toast (S)(Chef's Special)</h2>
+                        <h3 class="itemDescription">Buttery bread and garlic slice topped with various vegtables which makes it very delicious! <br>(Two toast pieces)</h3>
+                        <h3 class="itemPrice">90&#8377;</h3>
+                        <button class="addToCartBtn">ADD TO CART</button>
                     </div>
                     <div class="foodItemContainer">
-                        <h2 id="menuItem">Chesse Toast (J)</h2>
-                        <h3 id="itemDescription">Classic bread, toasted, topped with blend of cheese. <br>(Two toast pieces)</h3>
-                        <button id="addToCartBtn"><h3 id="buyNOW">70&#8377;/ADD TO CART</h3></button>
+                        <img class="foodImage" src="Photos/NoImageAvaiable.jpg">
+                        <h2 class="menuItem">Chesse Toast (J)</h2>
+                        <h3 class="itemDescription">Classic bread, toasted, topped with blend of cheese. <br>(Two toast pieces)</h3>
+                        <h3 class="itemPrice">70&#8377;</h3>
+                        <button class="addToCartBtn">ADD TO CART</button>
                     </div>
                     <div class="foodItemContainer">
-                        <h2 id="menuItem">Cheese Garlic Toast</h2>
-                        <h3 id="itemDescription">A classic take on garlic blend of cheese.</h3>
-                        <button id="addToCartBtn"><h3 id="buyNOW">80&#8377;/ADD TO CART</h3></button>
+                        <img class="foodImage" src="Photos/NoImageAvaiable.jpg">
+                        <h2 class="menuItem">Cheese Garlic Toast</h2>
+                        <h3 class="itemDescription">A classic take on garlic blend of cheese.</h3>
+                        <h3 class="itemPrice">80&#8377;</h3>
+                        <button class="addToCartBtn">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="navigation">
@@ -97,6 +103,23 @@
                 <hr>
             </div>
         </div>
+        <div>
+            <section class="container content-section">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">0&#8377;</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+        </div>
         <div class="container4">
             <div class="aboutContainer">
                 <img id="chefImage" src="Photos/chefImage.jpg">
@@ -109,11 +132,11 @@
                 <button id="toBlogBtn">Click here!</button>
             </div>
         </div>
+        <footer>
+            <h1>&copy; Se7en Spices.</h1>
+            <h2>Do visit us again!</h2>
+        </footer>
     </main>
-    <footer>
-        <h1>&copy; Se7en Spices.</h1>
-        <h2>Do visit us again!</h2>
-    </footer>
     <script src="https://kit.fontawesome.com/dc624f07b2.js" crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
 </body>
