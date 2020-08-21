@@ -1397,10 +1397,6 @@
         background-color: lightblue;
         color: black;
         cursor: pointer;
-    }
-    #buyNOW {
-        margin-top: 0;
-        margin-bottom: 0;
         letter-spacing: 2px;
     }
     #slide1:checked~.s1 {
@@ -1931,6 +1927,11 @@
         color: black;
         font-size: .9em;
         font-family: 'Oxygen', sans-serif;
+    }
+    .itemPrice {
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+        color: black;
     }
     .addToCartBtn {
         background-color: blue;

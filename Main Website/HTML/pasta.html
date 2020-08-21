@@ -60,22 +60,25 @@
                     <input type="radio" name="slide" id="slide2">
                     <input type="radio" name="slide" id="slide3">
                     <div class="foodItemContainer s1">
-                        <img id="foodImage" src="Photos/PenneArrabiata.jpg">
-                        <h2 id="menuItem">Penne Arrabiata (S)(J)(Chef's Special)</h2>
-                        <h3 id="itemDescription">Veggies tossed along pasta mixed with arrabbiata sauce, which is a spicy sauce for pasta made from garlic, tomatoes, and dried red chili peppers cooked in olive oil. </h3>
-                        <button id="addToCartBtn"><h3 id="buyNOW">150&#8377;/ADD TO CART</h3></button>
+                        <img class="foodImage" src="Photos/PenneArrabiata.jpg">
+                        <h2 class="menuItem">Penne Arrabiata (S)(J)(Chef's Special)</h2>
+                        <h3 class="itemDescription">Veggies tossed along pasta mixed with arrabbiata sauce, which is a spicy sauce for pasta made from garlic, tomatoes, and dried red chili peppers cooked in olive oil. </h3>
+                        <h3 class="itemPrice">150&#8377;</h3>
+                        <button class="addToCartBtn">ADD TO CART</button>
                     </div>
                     <div class="foodItemContainer">
-                        <img id="foodImage" src="Photos/PenneAlfredo.jpg">
-                        <h2 id="menuItem">Penne Alfredo (J)</h2>
-                        <h3 id="itemDescription">Penne pasta and exotic veggies tossed in olive oil and mixed with midly spicy alfredo sauce, which is a simple but elegant creamy.</h3>
-                        <button id="addToCartBtn"><h3 id="buyNOW">150&#8377;/ADD TO CART</h3></button>
+                        <img class="foodImage" src="Photos/PenneAlfredo.jpg">
+                        <h2 class="menuItem">Penne Alfredo (J)</h2>
+                        <h3 class="itemDescription">Penne pasta and exotic veggies tossed in olive oil and mixed with midly spicy alfredo sauce, which is a simple but elegant creamy.</h3>
+                        <h3 class="itemPrice">150&#8377;</h3>
+                        <button class="addToCartBtn">ADD TO CART</button>
                     </div>
                     <div class="foodItemContainer">
-                        <img id="foodImage" src="Photos/PenneInMixedSauce.jpg">
-                        <h2 id="menuItem">Penne in Mixed Sauce (J)(Chef's Special)</h2>
-                        <h3 id="itemDescription">Penne and exotic veggies tossed in olive oil mixed with rick pink sauce, AKA mixed sauce!</h3>
-                        <button id="addToCartBtn"><h3 id="buyNOW">160&#8377;/ADD TO CART</h3></button>
+                        <img class="foodImage" src="Photos/PenneInMixedSauce.jpg">
+                        <h2 class="menuItem">Penne in Mixed Sauce (J)(Chef's Special)</h2>
+                        <h3 class="itemDescription">Penne and exotic veggies tossed in olive oil mixed with rick pink sauce, AKA mixed sauce!</h3>
+                        <h3 class="itemPrice">160&#8377;</h3>
+                        <button class="addToCartBtn">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="navigation">
@@ -91,6 +94,23 @@
                 <hr>
             </div>
         </div>
+        <div>
+            <section class="container content-section">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">0&#8377;</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+        </div>
         <div class="container4">
             <div class="aboutContainer">
                 <img id="chefImage" src="Photos/chefImage.jpg">
@@ -103,11 +123,11 @@
                 <button id="toBlogBtn">Click here!</button>
             </div>
         </div>
+        <footer>
+            <h1>&copy; Se7en Spices.</h1>
+            <h2>Do visit us again!</h2>
+        </footer>
     </main>
-    <footer>
-        <h1>&copy; Se7en Spices.</h1>
-        <h2>Do visit us again!</h2>
-    </footer>
     <script src="https://kit.fontawesome.com/dc624f07b2.js" crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
 </body>
