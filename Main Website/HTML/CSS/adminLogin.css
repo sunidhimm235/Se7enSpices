@@ -1,0 +1,54 @@
+body {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div {
+    font-family: 'Raleway', sans-serif;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+button:hover {
+    letter-spacing: 2px;
+    background-color: black;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: gray;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}

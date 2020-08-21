@@ -145,7 +145,20 @@
                     <strong class="cart-total-title">Total</strong>
                     <span class="cart-total-price">0&#8377;</span>
                 </div>
-                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                <div class="deliveryDetails">
+                    <label class="deliveryAddress" for="Address">Address:</label>
+                    <br>
+                    <input class="deliveryAddressinput" type="text" value="Address" required>
+                    <br>
+                    <label class="deliveryEmail" for="Email">Email:</label>
+                    <br>
+                    <input class="deliveryEmailinput" type="email" value="Email" required>
+                    <br>
+                    <label class="deliveryNumber" for="Number">Phone Number:</label>
+                    <br>
+                    <input class="deliveryNumberinput" type="number" value="Number" maxlength="13" required>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="submit" onclick="screenshot();">PURCHASE</button>
             </section>
         </div>
         <div class="container4">
