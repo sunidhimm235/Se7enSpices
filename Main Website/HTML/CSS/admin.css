@@ -1,0 +1,96 @@
+/*
+var fName = document.getElementsByClassName('fNameinput').innerText
+    var lName = document.getElementsByClassName('lNameinput').innerText
+    var address = document.getElementsByClassName('deliveryAddressinput').innerText
+    var email = document.getElementsByClassName('deliveryEmailinput').innerText
+    var phoneNumber = document.getElementsByClassName('deliveryNumberinput').innerText
+    var order = document.getElementsByClassName('cart-items').innerHTML
+    var price = document.getElementsByClassName('cart-total-price')[0].value
+    */
+
+h1 {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background: gray;
+    border-radius: 3px;
+}
+
+#orderDetails {
+    border: 2px white;
+    outline: 2px white;
+}
+
+#tRow {
+    border: 2px;
+    outline: 2px;
+}
+
+th {
+    font-family: 'Bebas Neue', cursive;
+}
+
+td {
+    font-family: 'Kanit', sans-serif;
+}
+
+#Fname {
+    border: 2px white;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Lname {
+    border: 2px white;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Address {
+    border: 2px white;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Email {
+    border: 2px white;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Pnumber {
+    border: 2px white;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Order {
+    border: 2px white;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Total {
+    border: 2px white;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

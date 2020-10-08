@@ -46,19 +46,11 @@
     .midPart {
         position: relative;
         width: 1200px;
-        height: 100%;
+        height: 328.9vh;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
         background-color: #2d302e;
-    }
-    h1 {
-        text-align: center;
-        font-size: 3em;
-        padding-top: 30px;
-        color: white;
-        text-decoration: underline;
-        font-family: 'Crimson Text', serif;
     }
     .detailsOfRestaurant {
         justify-content: center;
@@ -76,22 +68,27 @@
     }
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
-        text-align: center;
         color: white;
     }
-    .textSpecialPizza {
-        margin-left: auto;
-        margin-right: auto;
+    h1 {
         text-align: center;
+        font-size: 3em;
+        padding-top: 5px;
+        color: white;
+        text-decoration: underline;
+        font-family: 'Crimson Text', serif;
+    }
+    .textIndian {
+        margin-left: 290px;
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
     }
-    .SpecialPizza {
+    .Indian {
+        float: left;
         border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 70px;
         font-size: 0.9em;
         min-width: 400px;
         border-radius: 5px;
@@ -106,34 +103,24 @@
         outline: 0;
         border-radius: 5px;
     }
-    .SpecialPizza th {
+    .Indian th {
         padding: 12px 15px;
     }
-    .SpecialPizza td {
+    .Indian td {
         padding: 12px 15px;
     }
-    .textMakeYourOwnPizza {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: peachpuff;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline gray;
-    }
-    .textCrust {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+    .textIndianBread {
+        margin-top: -45px;
+        margin-left: 780px;
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
     }
-    .Crust {
+    .IndianBread {
+        float: right;
         border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 140px;
         font-size: 0.9em;
         min-width: 400px;
         border-radius: 5px;
@@ -148,25 +135,24 @@
         outline: 0;
         border-radius: 5px;
     }
-    .Crust th {
+    .IndianBread th {
         padding: 12px 15px;
     }
-    .Crust td {
+    .IndianBread td {
         padding: 12px 15px;
     }
-    .textChoiceOfSauce {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+    .textPasta {
+        float: right;
+        margin-right: 275px;
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
     }
-    .choiceOfSauce {
+    .Pasta {
+        float: right;
         border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 70px;
         font-size: 0.9em;
         min-width: 400px;
         border-radius: 5px;
@@ -181,26 +167,26 @@
         outline: 0;
         border-radius: 5px;
     }
-    .choiceOfSauce th {
+    .Pasta th {
         padding: 12px 15px;
     }
-    .choiceOfSauce td {
+    .Pasta td {
         padding: 12px 15px;
     }
-    .textTopping {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+    .textSandwich {
+        float: left;
+        margin-top: 420px;
+        margin-left: -250px;
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
     }
-    .determineToppings {
+    .Sandwich {
+        float: left;
         border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
+        margin-top: 100px;
+        margin-left: -520px;
         font-size: 0.9em;
         min-width: 400px;
         border-radius: 5px;
@@ -215,42 +201,52 @@
         outline: 0;
         border-radius: 5px;
     }
-    .determineToppings th {
+    .Sandwich th {
         padding: 12px 15px;
     }
-    .determineToppings td {
+    .Sandwich td {
         padding: 12px 15px;
+    }
+    .textOpenToast {
+        float: right;
+        margin-top: 50px;
+        margin-right: 210px;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+    }
+    .OpenToast {
+        float: right;
+        border-collapse: collapse;
+        margin-top: 5px;
+        margin-right: 60px;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .OpenToast th {
+        padding: 12px 15px;
+    }
+    .OpenToast td {
+        padding: 12px 15px;
+    }
+    input[type="number" i] {
+        padding: 1px 2px;
+        width: 30px;
     }
     .hr {
-        margin-top: 30px;
-        height: 2px;
-        background-color: black;
-    }
-    #quantityofPizza {
-        margin-left: 415px;
-        font-size: 1.5em;
-        color: black;
-        background-color: #c1d1d6;
-        font-family: 'Fira Sans', sans-serif;
-    }
-    #PizzaQuantity {
-        width: 60px;
-        font-size: 15px;
-        padding-top: 7px;
-        font-size: 1.5;
-    }
-    .textADDpizza {
-        margin-top: 30px;
-        margin-left: 420px;
-        width: max-content;
-        font-size: 1.75em;
-        font-family: 'Fira Sans', sans-serif;
-        background-color: black;
-        color: white;
-        cursor: pointer;
-    }
-    .textADDpizza:hover {
-        color: gray;
+        margin-top: 1305px;
     }
     .deliveryDetails {
         background-color: silver;
@@ -411,19 +407,11 @@
     .midPart {
         position: relative;
         width: 1000px;
-        height: 100%;
+        height: 331.5vh;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
         background-color: #2d302e;
-    }
-    h1 {
-        text-align: center;
-        font-size: 3em;
-        padding-top: 30px;
-        color: white;
-        text-decoration: underline;
-        font-family: 'Crimson Text', serif;
     }
     .detailsOfRestaurant {
         justify-content: center;
@@ -441,22 +429,27 @@
     }
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
-        text-align: center;
         color: white;
     }
-    .textSpecialPizza {
-        margin-left: auto;
-        margin-right: auto;
+    h1 {
         text-align: center;
+        font-size: 3em;
+        padding-top: 5px;
+        color: white;
+        text-decoration: underline;
+        font-family: 'Crimson Text', serif;
+    }
+    .textIndian {
+        margin-left: 240px;
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
     }
-    .SpecialPizza {
+    .Indian {
+        float: left;
         border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 30px;
         font-size: 0.9em;
         min-width: 400px;
         border-radius: 5px;
@@ -471,34 +464,24 @@
         outline: 0;
         border-radius: 5px;
     }
-    .SpecialPizza th {
+    .Indian th {
         padding: 12px 15px;
     }
-    .SpecialPizza td {
+    .Indian td {
         padding: 12px 15px;
     }
-    .textMakeYourOwnPizza {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: peachpuff;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline gray;
-    }
-    .textCrust {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+    .textIndianBread {
+        margin-top: -45px;
+        margin-left: 700px;
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
     }
-    .Crust {
+    .IndianBread {
+        float: right;
         border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 30px;
         font-size: 0.9em;
         min-width: 400px;
         border-radius: 5px;
@@ -513,25 +496,94 @@
         outline: 0;
         border-radius: 5px;
     }
-    .Crust th {
+    .IndianBread th {
         padding: 12px 15px;
     }
-    .Crust td {
+    .IndianBread td {
         padding: 12px 15px;
     }
-    .textChoiceOfSauce {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+    .textPasta {
+        float: right;
+        margin-top: 485px;
+        margin-right: 150px;
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
     }
-    .choiceOfSauce {
+    .Pasta {
+        float: right;
         border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 543px;
+        margin-right: -290px;
+        font-size: 0.7em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .Pasta th {
+        padding: 12px 15px;
+    }
+    .Pasta td {
+        padding: 12px 15px;
+    }
+    .textSandwich {
+        float: left;
+        margin-top: 490px;
+        margin-left: -300px;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+    }
+    .Sandwich {
+        float: left;
+        border-collapse: collapse;
+        margin-top: 80px;
+        margin-left: 10px;
+        font-size: 0.7em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .Sandwich th {
+        padding: 12px 15px;
+    }
+    .Sandwich td {
+        padding: 12px 15px;
+    }
+    .textOpenToast {
+        float: right;
+        margin-top: -885px;
+        margin-right: 180px;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+    }
+    .OpenToast {
+        float: right;
+        border-collapse: collapse;
+        margin-top: -831px;
+        margin-right: 30px;
         font-size: 0.9em;
         min-width: 400px;
         border-radius: 5px;
@@ -546,49 +598,18 @@
         outline: 0;
         border-radius: 5px;
     }
-    .choiceOfSauce th {
+    .OpenToast th {
         padding: 12px 15px;
     }
-    .choiceOfSauce td {
+    .OpenToast td {
         padding: 12px 15px;
     }
-    .textTopping {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .determineToppings {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .determineToppings th {
-        padding: 12px 15px;
-    }
-    .determineToppings td {
-        padding: 12px 15px;
+    input[type="number" i] {
+        padding: 1px 2px;
+        width: 30px;
     }
     .hr {
-        margin-top: 30px;
-        height: 2px;
-        background-color: black;
+        margin-top: 1325px;
     }
     .deliveryDetails {
         background-color: silver;
@@ -749,19 +770,11 @@
     .midPart {
         position: relative;
         width: 800px;
-        height: 100%;
+        height: 468vh;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
         background-color: #2d302e;
-    }
-    h1 {
-        text-align: center;
-        font-size: 3em;
-        padding-top: 30px;
-        color: white;
-        text-decoration: underline;
-        font-family: 'Crimson Text', serif;
     }
     .detailsOfRestaurant {
         justify-content: center;
@@ -779,19 +792,157 @@
     }
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
-        text-align: center;
         color: white;
     }
-    .textSpecialPizza {
-        margin-left: auto;
-        margin-right: auto;
+    h1 {
         text-align: center;
+        font-size: 3em;
+        padding-top: 5px;
+        color: white;
+        text-decoration: underline;
+        font-family: 'Crimson Text', serif;
+    }
+    .textIndian {
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
-    .SpecialPizza {
+    .Indian {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Indian th {
+        padding: 12px 15px;
+    }
+    .Indian td {
+        padding: 12px 15px;
+    }
+    .textIndianBread {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .IndianBread {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .IndianBread th {
+        padding: 12px 15px;
+    }
+    .IndianBread td {
+        padding: 12px 15px;
+    }
+    .textPasta {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .Pasta {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Pasta th {
+        padding: 12px 15px;
+    }
+    .Pasta td {
+        padding: 12px 15px;
+    }
+    .textSandwich {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+    }
+    .Sandwich {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Sandwich th {
+        padding: 12px 15px;
+    }
+    .Sandwich td {
+        padding: 12px 15px;
+    }
+    .textOpenToast {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .OpenToast {
         border-collapse: collapse;
         margin-left: auto;
         margin-right: auto;
@@ -809,124 +960,15 @@
         outline: 0;
         border-radius: 5px;
     }
-    .SpecialPizza th {
+    .OpenToast th {
         padding: 12px 15px;
     }
-    .SpecialPizza td {
+    .OpenToast td {
         padding: 12px 15px;
     }
-    .textMakeYourOwnPizza {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: peachpuff;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline gray;
-    }
-    .textCrust {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .Crust {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .Crust th {
-        padding: 12px 15px;
-    }
-    .Crust td {
-        padding: 12px 15px;
-    }
-    .textChoiceOfSauce {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .choiceOfSauce {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .choiceOfSauce th {
-        padding: 12px 15px;
-    }
-    .choiceOfSauce td {
-        padding: 12px 15px;
-    }
-    .textTopping {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .determineToppings {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .determineToppings th {
-        padding: 12px 15px;
-    }
-    .determineToppings td {
-        padding: 12px 15px;
-    }
-    .hr {
-        margin-top: 30px;
-        height: 2px;
-        background-color: black;
+    input[type="number" i] {
+        padding: 1px 2px;
+        width: 30px;
     }
     .deliveryDetails {
         background-color: silver;
@@ -1087,19 +1129,11 @@
     .midPart {
         position: relative;
         width: 600px;
-        height: 100%;
+        height: 472vh;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
         background-color: #2d302e;
-    }
-    h1 {
-        text-align: center;
-        font-size: 3em;
-        padding-top: 30px;
-        color: white;
-        text-decoration: underline;
-        font-family: 'Crimson Text', serif;
     }
     .detailsOfRestaurant {
         justify-content: center;
@@ -1117,19 +1151,157 @@
     }
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
-        text-align: center;
         color: white;
     }
-    .textSpecialPizza {
-        margin-left: auto;
-        margin-right: auto;
+    h1 {
         text-align: center;
+        font-size: 3em;
+        padding-top: 5px;
+        color: white;
+        text-decoration: underline;
+        font-family: 'Crimson Text', serif;
+    }
+    .textIndian {
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
-    .SpecialPizza {
+    .Indian {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Indian th {
+        padding: 12px 15px;
+    }
+    .Indian td {
+        padding: 12px 15px;
+    }
+    .textIndianBread {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .IndianBread {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .IndianBread th {
+        padding: 12px 15px;
+    }
+    .IndianBread td {
+        padding: 12px 15px;
+    }
+    .textPasta {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .Pasta {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Pasta th {
+        padding: 12px 15px;
+    }
+    .Pasta td {
+        padding: 12px 15px;
+    }
+    .textSandwich {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+    }
+    .Sandwich {
+        border-collapse: collapse;
+        font-size: 0.8em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Sandwich th {
+        padding: 12px 15px;
+    }
+    .Sandwich td {
+        padding: 12px 15px;
+    }
+    .textOpenToast {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .OpenToast {
         border-collapse: collapse;
         margin-left: auto;
         margin-right: auto;
@@ -1147,124 +1319,15 @@
         outline: 0;
         border-radius: 5px;
     }
-    .SpecialPizza th {
+    .OpenToast th {
         padding: 12px 15px;
     }
-    .SpecialPizza td {
+    .OpenToast td {
         padding: 12px 15px;
     }
-    .textMakeYourOwnPizza {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: peachpuff;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline gray;
-    }
-    .textCrust {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .Crust {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .Crust th {
-        padding: 12px 15px;
-    }
-    .Crust td {
-        padding: 12px 15px;
-    }
-    .textChoiceOfSauce {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .choiceOfSauce {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .choiceOfSauce th {
-        padding: 12px 15px;
-    }
-    .choiceOfSauce td {
-        padding: 12px 15px;
-    }
-    .textTopping {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .determineToppings {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .determineToppings th {
-        padding: 12px 15px;
-    }
-    .determineToppings td {
-        padding: 12px 15px;
-    }
-    .hr {
-        margin-top: 30px;
-        height: 2px;
-        background-color: black;
+    input[type="number" i] {
+        padding: 1px 2px;
+        width: 30px;
     }
     .deliveryDetails {
         background-color: silver;
@@ -1425,19 +1488,11 @@
     .midPart {
         position: relative;
         width: 400px;
-        height: 100%;
+        height: 513.5vh;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
         background-color: #2d302e;
-    }
-    h1 {
-        text-align: center;
-        font-size: 3em;
-        padding-top: 30px;
-        color: white;
-        text-decoration: underline;
-        font-family: 'Crimson Text', serif;
     }
     .detailsOfRestaurant {
         justify-content: center;
@@ -1455,19 +1510,157 @@
     }
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
-        text-align: center;
         color: white;
     }
-    .textSpecialPizza {
-        margin-left: auto;
-        margin-right: auto;
+    h1 {
         text-align: center;
+        font-size: 3em;
+        padding-top: 5px;
+        color: white;
+        text-decoration: underline;
+        font-family: 'Crimson Text', serif;
+    }
+    .textIndian {
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
-    .SpecialPizza {
+    .Indian {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Indian th {
+        padding: 12px 15px;
+    }
+    .Indian td {
+        padding: 12px 15px;
+    }
+    .textIndianBread {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .IndianBread {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .IndianBread th {
+        padding: 12px 15px;
+    }
+    .IndianBread td {
+        padding: 12px 15px;
+    }
+    .textPasta {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .Pasta {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Pasta th {
+        padding: 12px 15px;
+    }
+    .Pasta td {
+        padding: 12px 15px;
+    }
+    .textSandwich {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+    }
+    .Sandwich {
+        border-collapse: collapse;
+        font-size: 0.8em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Sandwich th {
+        padding: 12px 15px;
+    }
+    .Sandwich td {
+        padding: 12px 15px;
+    }
+    .textOpenToast {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .OpenToast {
         border-collapse: collapse;
         margin-left: auto;
         margin-right: auto;
@@ -1485,124 +1678,15 @@
         outline: 0;
         border-radius: 5px;
     }
-    .SpecialPizza th {
+    .OpenToast th {
         padding: 12px 15px;
     }
-    .SpecialPizza td {
+    .OpenToast td {
         padding: 12px 15px;
     }
-    .textMakeYourOwnPizza {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: peachpuff;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline gray;
-    }
-    .textCrust {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .Crust {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .Crust th {
-        padding: 12px 15px;
-    }
-    .Crust td {
-        padding: 12px 15px;
-    }
-    .textChoiceOfSauce {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .choiceOfSauce {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .choiceOfSauce th {
-        padding: 12px 15px;
-    }
-    .choiceOfSauce td {
-        padding: 12px 15px;
-    }
-    .textTopping {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .determineToppings {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.9em;
-        min-width: 400px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .determineToppings th {
-        padding: 12px 15px;
-    }
-    .determineToppings td {
-        padding: 12px 15px;
-    }
-    .hr {
-        margin-top: 30px;
-        height: 2px;
-        background-color: black;
+    input[type="number" i] {
+        padding: 1px 2px;
+        width: 30px;
     }
     .deliveryDetails {
         background-color: silver;
@@ -1763,19 +1847,11 @@
     .midPart {
         position: relative;
         width: 300px;
-        height: 100%;
+        height: 592vh;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
         background-color: #2d302e;
-    }
-    h1 {
-        text-align: center;
-        font-size: 3em;
-        padding-top: 30px;
-        color: white;
-        text-decoration: underline;
-        font-family: 'Crimson Text', serif;
     }
     .detailsOfRestaurant {
         justify-content: center;
@@ -1793,19 +1869,157 @@
     }
     #menuInfo {
         font-family: 'Oxygen', sans-serif;
-        text-align: center;
         color: white;
     }
-    .textSpecialPizza {
-        margin-left: auto;
-        margin-right: auto;
+    h1 {
         text-align: center;
+        font-size: 3em;
+        padding-top: 5px;
+        color: white;
+        text-decoration: underline;
+        font-family: 'Crimson Text', serif;
+    }
+    .textIndian {
         color: white;
         font-size: 1.5em;
         font-family: 'Crimson Text', serif;
         text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
-    .SpecialPizza {
+    .Indian {
+        border-collapse: collapse;
+        font-size: 0.6em;
+        max-width: 270px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Indian th {
+        padding: 12px 15px;
+    }
+    .Indian td {
+        padding: 12px 15px;
+    }
+    .textIndianBread {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .IndianBread {
+        border-collapse: collapse;
+        font-size: 0.6em;
+        max-width: 270px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .IndianBread th {
+        padding: 12px 15px;
+    }
+    .IndianBread td {
+        padding: 12px 15px;
+    }
+    .textPasta {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .Pasta {
+        border-collapse: collapse;
+        font-size: 0.6em;
+        max-width: 270px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Pasta th {
+        padding: 12px 15px;
+    }
+    .Pasta td {
+        padding: 12px 15px;
+    }
+    .textSandwich {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+    }
+    .Sandwich {
+        border-collapse: collapse;
+        font-size: 0.6em;
+        max-width: 270px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #c1d1d6;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Sandwich th {
+        padding: 12px 15px;
+    }
+    .Sandwich td {
+        padding: 12px 15px;
+    }
+    .textOpenToast {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .OpenToast {
         border-collapse: collapse;
         margin-left: auto;
         margin-right: auto;
@@ -1823,126 +2037,16 @@
         outline: 0;
         border-radius: 5px;
     }
-    .SpecialPizza th {
+    .OpenToast th {
         padding: 12px 15px;
     }
-    .SpecialPizza td {
+    .OpenToast td {
         padding: 12px 15px;
     }
-    .textMakeYourOwnPizza {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: peachpuff;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline gray;
+    input[type="number" i] {
+        padding: 1px 2px;
+        width: 30px;
     }
-    .textCrust {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .Crust {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.6em;
-        max-width: 270px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .Crust th {
-        padding: 12px 15px;
-    }
-    .Crust td {
-        padding: 12px 15px;
-    }
-    .textChoiceOfSauce {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .choiceOfSauce {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.6em;
-        max-width: 270px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .choiceOfSauce th {
-        padding: 12px 15px;
-    }
-    .choiceOfSauce td {
-        padding: 12px 15px;
-    }
-    .textTopping {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Crimson Text', serif;
-        text-decoration: underline;
-    }
-    .determineToppings {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 0.6em;
-        max-width: 270px;
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        font-family: sans-serif;
-        background-color: #c1d1d6;
-        color: black;
-        text-align: left;
-        font-weight: bold;
-        border: 0;
-        outline: 0;
-        border-radius: 5px;
-    }
-    .determineToppings th {
-        padding: 12px 15px;
-    }
-    .determineToppings td {
-        padding: 12px 15px;
-    }
-    .hr {
-        margin-top: 30px;
-        height: 2px;
-        background-color: black;
-    }
-    .addPizza {}
     .deliveryDetails {
         background-color: silver;
         width: 270px;

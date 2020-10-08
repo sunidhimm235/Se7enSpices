@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Se7en Spices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/pizza.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:wght@600&family=Dancing+Script:wght@700&family=Kanit&family=Lobster&family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Libre+Caslon+Display&family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navigationBar">
+        <ul class="unorderedLists">
+            <li class="Part1">
+                <h4 class="WebpageName">Se7enSpices</h4>
+            </li>
+            <li class="Part2">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="Part2">
+                <a href="menu.html">Menu</a>
+            </li>
+            <li class="Part2" style="background-color:gray;">
+                <a href="pizza.html" style="color: black;">Pizza</a>
+            </li>
+            <li class="Part2">
+                <a>Blog</a>
+            </li>
+            <li class="Part2">
+                <a>About</a>
+            </li>
+        </ul>
+    </header>
+    <main class="midPart">
+        <h1>PIZZA</h1>
+        <div class="detailsOfRestaurant">
+            <hr style="height: 2px; background-color: black;">
+            <h3 class="moreInfo">Chef: Akshay Gajjar</h3>
+            <h3 class="moreInfo">Based in Ahmedabad, Gujarat, India</h3>
+            <h3 class="moreInfo">Open from 5pm-10pm</h3>
+            <h3 class="moreInfo">Order via Website, DM in Instagram, or Call.</h3>
+            <h3 class="moreInfo">Call at 9898247152</h3>
+            <hr style="height: 2px; background-color: black;">
+        </div>
+        <form class="Form" action="https://formspree.io/f/xeqpeeyq" method="POST">
+            <div>
+                <h2 class="textSpecialPizza">Special Pizzas:</h2>
+                <table class="SpecialPizza">
+                    <tr style="background-color: silver;">
+                        <th>Cart</th>
+                        <th>Dish</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Burst Pizza with Tandoori Sauce" class="chck" value="0" /></td>
+                        <td>Cheese Burst Pizza with Tandoori Sauce</td>
+                        <td><input type="number" name="qnty-PaneerLababdar" value="" min="0" max="50"></td>
+                        <td>₹10.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h2 class="textMakeYourOwnPizza">MAKE YOUR OWN PIZZA!</h2>
+                <h2 class="textCrust">Choose Your Crust:</h2>
+                <h2 class="textCrust" style="text-decoration: none;">Please choose only ONE.</h2>
+                <table class="Crust">
+                    <tr style="background-color: silver;">
+                        <th>Cart</th>
+                        <th>Dish</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Thin" class="chck" value="Thin - (₹150.00)" /></td>
+                        <td>Thin</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹150.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Soft" class="chck" value="Soft - (₹150.00)" /></td>
+                        <td>Soft</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹150.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheesy" class="chck" value="Chessy - (₹210.00)" /></td>
+                        <td>Cheesy</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹210.00</td>
+                    </tr>
+                </table>
+                <h2 class="textChoiceOfSauce">Choice Of Sauce:</h2>
+                <h2 class="textChoiceOfSauce" style="text-decoration: none;">Please choose only ONE</h2>
+                <table class="choiceOfSauce">
+                    <tr style="background-color: silver;">
+                        <th>Cart</th>
+                        <th>Dish</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Red Tandoori" class="chck" value="Red Tandoori Sauce" /></td>
+                        <td>Red Tandoori Sauce</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹0.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Tandoori" class="chck" value="Tandoori Sauce" /></td>
+                        <td>Tandoori Sauce</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹0.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Makhni" class="chck" value="Makhni Sauce" /></td>
+                        <td>Makhni Sauce</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹0.00</td>
+                    </tr>
+                </table>
+                <h2 class="textTopping">Select Toppings:</h2>
+                <table class="determineToppings">
+                    <tr style="background-color: silver;">
+                        <th>Cart</th>
+                        <th>Topping</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Onion" class="chck" value="5" /></td>
+                        <td>Onion</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹5.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Green Bell Pepper" class="chck" value="5" /></td>
+                        <td>Green Bell Pepper</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹5.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Yellow Bell Pepper" class="chck" value="10" /></td>
+                        <td>Yellow Bell Pepper</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹10.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Red Bell Pepper" class="chck" value="10" /></td>
+                        <td>Red Bell Pepper</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹10.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Olives" class="chck" value="10" /></td>
+                        <td>Olives</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹10.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Jalapeno" class="chck" value="10" /></td>
+                        <td>Jalapeno</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹10.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Baby Corn" class="chck" value="10" /></td>
+                        <td>Baby Corn</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹10.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Golden Corn" class="chck" value="5" /></td>
+                        <td>Golden Corn</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹5.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Paprika" class="chck" value="10" /></td>
+                        <td>Paprika</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹10.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Paneer" class="chck" value="10" /></td>
+                        <td>Paneer</td>
+                        <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
+                        <td>₹10.00</td>
+                    </tr>
+                </table>
+                <!--
+                <label id="quantityofPizza">Quantity of the same Pizza:
+                    <input id="PizzaQuantity" name="Quantity" type="number" value="1" min="1" max="50" required>
+                </label>
+                <div class="ADD"></div>
+                <div class="addPizza" style="position: sticky;">
+                    <p class="textADDpizza">Click Here To Add New Pizza</p>
+                </div>
+                <div class="scrolltoAdd" style="position: fixed; bottom: 10px;">
+                    <p class="scroll" style="width: 50px; height: 95px; color: white; background-color: black; text-align: center; font-size: 13px; cursor: pointer;"><i class="fas fa-arrow-up" style="padding-top: 10px; font-size: 30px; display: block; cursor: pointer;"></i>Add more PIZZA!</p>
+                </div>
+            -->
+            </div>
+            <hr class="hr">
+            <h3 id="menuInfo">*Size: 8' inches</h3>
+            <h3 id="menuInfo">*Order before 1 hour to enjoy hot and fresh pizza.</h3>
+            <h3 id="menuInfo">*Please make sure everything is correct. THANK YOU!</h3>
+            <h3 id="menuInfo">*For Bulk orders, please contact us through our Instagram account. THANK YOU!</h3>
+            <hr style="height: 2px; background-color: black;">
+            <div class="deliveryDetails">
+                <div>
+                    <label id="fName">First Name:
+                        <input id="fNameinput" name="FirstName" type="text" required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label id="lName">Last Name:
+                        <input id="lNameinput" name="LastName" type="text" required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label id="deliveryAddress">Address:
+                        <input id="deliveryAddressinput" name="Address" type="text" required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label id="deliveryEmail">Email:
+                        <input id="deliveryEmailinput" name="Email" type="email" required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label id="deliveryNumber">Phone Number:
+                        <input id="deliveryNumberinput" name="Number" type="number" maxlength="13" required>
+                    </label>
+                </div>
+                <p style="font-family: 'Raleway', sans-serif; align-items: center; justify-content: center; text-align: center; font-size: 1.5em;">Total Price: ₹<input type="text" name="price" id="price" disabled /></p>
+                <button type="submit">PURCHASE</button>
+            </div>
+            <hr style="height: 2px; background-color: black;">
+        </form>
+        <h3 style="font-family: 'Crimson Text', serif; color: white; font-size: 2em; justify-content: center; text-align: center; align-items: center;">Thank you for doing buisness with us! Have a great evening!</h3>
+        <footer>
+            <h2 style="font-family: 'Lobster', cursive; font-size: 2em;">&copy; Se7en Spices.</h2>
+            <h2>Do visit us again!</h2>
+        </footer>
+    </main>
+    <script src="https://kit.fontawesome.com/dc624f07b2.js" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            function calculateSum() {
+                var sumTotal = 0;
+                $('table tbody tr').each(function() {
+                    var $tr = $(this);
+
+                    if ($tr.find('input[type="checkbox"]').is(':checked')) {
+
+                        var $columns = $tr.find('td').next('td').next('td');
+                        var $Qnty = parseInt($tr.find('input[type="number"]').val());
+                        var $Cost = parseInt($columns.next('td').html().split('₹')[1]);
+                        sumTotal += $Qnty * $Cost;
+                    }
+                });
+
+                $("#price").val(sumTotal);
+
+            }
+
+            $('#sum').on('click', function() {
+
+                calculateSum();
+            });
+
+            $("input[type='number']").keyup(function() {
+                calculateSum();
+
+            });
+
+            $("input[type='checkbox']").change(function() {
+                calculateSum();
+
+            });
+
+
+
+        });
+
+        $(".addPizza").click(
+            function() {
+                var someText = "<h2 class='textCrust'>Choose Your Crust:</h2><h2 class='textCrust' style='text-decoration: none;''>Please choose only ONE.</h2><table class='Crust'><tr style='background-color: silver;'><th>Cart</th><th>Dish</th><th>Quantity</th><th>Cost</th></tr><tr><td><input type='checkbox' name='Thin' class='chck' value='Thin - (₹150.00)' /></td><td>Thin</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹150.00</td></tr><tr><td><input type='checkbox' name='Soft' class='chck' value='Soft - (₹150.00)' /></td><td>Soft</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹150.00</td></tr><tr><td><input type='checkbox' name='Cheesy' class='chck' value='Chessy - (₹210.00)' /></td><td>Cheesy</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹210.00</td></tr></table><h2 class='textChoiceOfSauce'>Choice Of Sauce:</h2><h2 class='textChoiceOfSauce' style='text-decoration: none;'>Please choose only ONE</h2><table class='choiceOfSauce'><tr style='background-color: silver;'><th>Cart</th><th>Dish</th><th>Quantity</th><th>Cost</th></tr><tr><td><input type='checkbox' name='Red Tandoori' class='chck' value='Red Tandoori Sauce' /></td><td>Red Tandoori Sauce</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹0.00</td></tr><tr><td><input type='checkbox' name='Tandoori' class='chck' value='Tandoori Sauce' /></td><td>Tandoori Sauce</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹0.00</td></tr><tr><td><input type='checkbox' name='Makhni' class='chck' value='Makhni Sauce' /></td><td>Makhni Sauce</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹0.00</td></tr></table><h2 class='textTopping'>Select Toppings:</h2><table class='determineToppings'><tr style='background-color: silver;'><th>Cart</th><th>Topping</th><th>Quantity</th><th>Cost</th></tr><tr><td><input type='checkbox' name='Onion' class='chck' value='5' /></td><td>Onion</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹5.00</td></tr><tr><td><input type='checkbox' name='Green Bell Pepper' class='chck' value='5' /></td><td>Green Bell Pepper</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹5.00</td></tr><tr><td><input type='checkbox' name='Yellow Bell Pepper' class='chck' value='10' /></td><td>Yellow Bell Pepper</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹10.00</td></tr><tr><td><input type='checkbox' name='Red Bell Pepper' class='chck' value='10' /></td><td>Red Bell Pepper</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹10.00</td></tr><tr><td><input type='checkbox' name='Olives' class='chck' value='10' /></td><td>Olives</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹10.00</td></tr><tr><td><input type='checkbox' name='Jalapeno' class='chck' value='10' /></td><td>Jalapeno</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹10.00</td></tr><tr><td><input type='checkbox' name='Baby Corn' class='chck' value='10' /></td><td>Baby Corn</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹10.00</td></tr><tr><td><input type='checkbox' name='Golden Corn' class='chck' value='5' /></td><td>Golden Corn</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹5.00</td></tr><tr><td><input type='checkbox' name='Paprika' class='chck' value='10' /></td><td>Paprika</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹10.00</td></tr><tr><td><input type='checkbox' name='Paneer' class='chck' value='10' /></td><td>Paneer</td><td><input type='number' name='Quantity' value='1' min='1' max='1'></td><td>₹10.00</td></tr>";
+                var newDiv = $("div.ADD").append(someText);
+                $(this).append(newDiv);
+            }
+        )
+
+        $(".scrolltoAdd").click(function() {
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $(".addPizza").offset().top
+            }, 2000);
+        });
+    </script>
+</body>
+
+</html>

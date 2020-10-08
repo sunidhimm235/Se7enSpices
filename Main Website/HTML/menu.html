@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Se7en Spices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:wght@600&family=Dancing+Script:wght@700&family=Kanit&family=Lobster&family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Libre+Caslon+Display&family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navigationBar">
+        <ul class="unorderedLists">
+            <li class="Part1">
+                <h4 class="WebpageName">Se7enSpices</h4>
+            </li>
+            <li class="Part2">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="Part2" style="background-color:gray;">
+                <a href="menu.html" style="color: black;">Menu</a>
+            </li>
+            <li class="Part2">
+                <a href="pizza.html">Pizza</a>
+            </li>
+            <li class="Part2">
+                <a href="blog.html">Blog</a>
+            </li>
+            <li class="Part2">
+                <a href="about.html">About</a>
+            </li>
+        </ul>
+    </header>
+    <main class="midPart">
+        <h1 style="padding-top: 20px;">MENU</h1>
+        <div class="menuInfo">
+            <hr>
+            <h3 class="moreInfo">Chef: Akshay Gajjar</h3>
+            <h3 class="moreInfo">Based in Ahmedabad, Gujarat, India</h3>
+            <h3 class="moreInfo">Open from 5pm-10pm</h3>
+            <h3 class="moreInfo">Order via Website, DM in Instagram, or Call.</h3>
+            <h3 class="moreInfo">Call at 9898247152</h3>
+            <hr>
+            <h3 id="menuInfo">*Please insert Quantity before checking Checkbox. Thank you!</h3>
+            <h3 id="menuInfo">J: Jain option avaiable.</h3>
+            <h3 id="menuInfo">S: Spicy option avaiable</h3>
+            <hr>
+        </div>
+        <div class="menuContents">
+            <form action="https://formspree.io/mnqonaal" method="POST">
+                <h2 class="textIndian">Indian</h2>
+                <table class="Indian">
+                    <tr style="background-color: silver;">
+                        <th>Cart</th>
+                        <th>Dish</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Panner Lababdar" class="chck" value="200" /></td>
+                        <td>Panner Lababdar</td>
+                        <td><input type="number" name="qnty-PaneerLababdar" value="" min="0" max="50"></td>
+                        <td>₹200.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Paneer Makhani (Chef's Special)" class="chck" value="210" /></td>
+                        <td>Paneer Makhani (Chef's Special)</td>
+                        <td><input type="number" name="qnty-Paneer Makhani (Chef's Special)" value="" min="0" max="50"></td>
+                        <td>₹210.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Paneer Makhani (Chef's Special) (J)" class="chck" value="210" /></td>
+                        <td>Paneer Makhani (Chef's Special) (J)</td>
+                        <td><input type="number" name="qnty-Paneer Makhani (Chef's Special) (J)" value="" min="0" max="50"></td>
+                        <td>₹210.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Kadhai Paneer (Chef's Special)" class="chck" value="200" /></td>
+                        <td>Kadhai Paneer (Chef's Special)</td>
+                        <td><input type="number" name="qnty-Kadhai Paneer (Chef's Special)" value="" min="0" max="50"></td>
+                        <td>₹200.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Kadhai Paneer (Chef's Special) (S)" class="chck" value="200" /></td>
+                        <td>Kadhai Paneer (Chef's Special) (S)</td>
+                        <td><input type="number" name="qnty-Kadhai Paneer (Chef's Special) (S)" value="" min="0" max="50"></td>
+                        <td>₹200.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Butter Masala" class="chck" value="230" /></td>
+                        <td>Cheese Butter Masala</td>
+                        <td><input type="number" name="qnty-Cheese Butter Masala" value="" min="0" max="50"></td>
+                        <td>₹230.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Paneer Butter Masala" class="chck" value="220" /></td>
+                        <td>Paneer Butter Masala</td>
+                        <td><input type="number" name="qnty-Paneer Butter Masala" value="" min="0" max="50"></td>
+                        <td>₹220.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Paneer Butter Masala (J)" class="chck" value="220" /></td>
+                        <td>Paneer Butter Masala (J)</td>
+                        <td><input type="number" name="qnty-Paneer Butter Masala (J)" value="" min="0" max="50"></td>
+                        <td>₹220.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Kaju Curry (Chef's Special)" class="chck" value="230" /></td>
+                        <td>Kaju Curry (Chef's Special)</td>
+                        <td><input type="number" name="qnty-Kaju Curry (Chef's Special)" value="" min="0" max="50"></td>
+                        <td>₹230.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Subz Kohlapuri" class="chck" value="200" /></td>
+                        <td>Subz Kohlapuri</td>
+                        <td><input type="number" name="qnty-Subz Kohlapuri" value="" min="0" max="50"></td>
+                        <td>₹200.00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Subz Kohlapuri (S)" class="chck" value="200" /></td>
+                        <td>Subz Kohlapuri (S)</td>
+                        <td><input type="number" name="qnty-Subz Kohlapuri (S)" value="" min="0" max="50"></td>
+                        <td>₹200.00</td>
+                    </tr>
+                </table>
+                <h2 class="textIndianBread">Indian Bread</h2>
+                <table class="IndianBread">
+                    <tr style="background-color: silver;">
+                        <th>Cart</th>
+                        <th>Dish</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Laccha Paratha" class="chck" value="30" /></td>
+                        <td>Laccha Paratha</td>
+                        <td><input type="number" name="qnty-Laccha Paratha" value="" min="0" max="50"></td>
+                        <td>₹30.00</td>
+                    </tr>
+                </table>
+                <h2 class="textPasta">Pasta/Farineux</h2>
+                <table class="Pasta">
+                    <tr style="background-color: silver;">
+                        <th>Cart</th>
+                        <th>Dish</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Penne Arrabiata (Chef's Special)" class="chck" value="150" /></td>
+                        <td>Penne Arrabiata (Chef's Special)</td>
+                        <td><input type="number" name="qnty-Penne Arrabiata (Chef's Special)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Penne Arrabiata (Chef's Special) (S)" class="chck" value="150" /></td>
+                        <td>Penne Arrabiata (Chef's Special) (S)</td>
+                        <td><input type="number" name="qnty-Penne Arrabiata (Chef's Special) (S)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Penne Arrabiata (Chef's Special) (J)" class="chck" value="150" /></td>
+                        <td>Penne Arrabiata (Chef's Special) (J)</td>
+                        <td><input type="number" name="qnty-Penne Arrabiata (Chef's Special) (J)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Penne Alfredo" class="chck" value="150" /></td>
+                        <td>Penne Alfredo</td>
+                        <td><input type="number" name="qnty-Penne Alfredo" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Penne Alfredo (J)" class="chck" value="150" /></td>
+                        <td>Penne Alfredo (J)</td>
+                        <td><input type="number" name="qnty-Penne Alfredo (J)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Penne in Mixed Sauce (Chef's Special)" class="chck" value="160" /></td>
+                        <td>Penne in Mixed Sauce (Chef's Special)</td>
+                        <td><input type="number" name="qnty-Penne in Mixed Sauce (Chef's Special)" value="" min="0" max="50"></td>
+                        <td>₹160</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Penne in Mixed Sauce (Chef's Special) (J)" class="chck" value="160" /></td>
+                        <td>Penne in Mixed Sauce (Chef's Special) (J)</td>
+                        <td><input type="number" name="qnty-Penne in Mixed Sauce (Chef's Special) (J)" value="" min="0" max="50"></td>
+                        <td>₹160</td>
+                    </tr>
+                </table>
+                <h2 class="textSandwich">Sandwich</h2>
+                <table class="Sandwich">
+                    <tr style="background-color: silver;">
+                        <th>Cart</th>
+                        <th>Dish</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Tandoori Paneer Sandwich" class="chck" value="150" /></td>
+                        <td>Tandoori Paneer Sandwich (G)</td>
+                        <td><input type="number" name="qnty-Tandoori Paneer Sandwich" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Tandoori Paneer Sandwich (S)" class="chck" value="150" /></td>
+                        <td>Tandoori Paneer Sandwich (S)(G)</td>
+                        <td><input type="number" name="qnty-Tandoori Paneer Sandwich(S)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Pizza Cheese Sandwich" class="chck" value="150" /></td>
+                        <td>Pizza Cheese Sandwich (Chef's Special) (G)</td>
+                        <td><input type="number" name="qnty-Pizza Cheese Sandwich" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Pizza Cheese Sandwich (J)" class="chck" value="150" /></td>
+                        <td>Pizza Cheese Sandwich (Chef's Special) (J)(G)</td>
+                        <td><input type="number" name="qnty-Pizza Cheese Sandwich (J)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Peri Peri Paneer Sandwich (Chef's Special) (G)" class="chck" value="150" /></td>
+                        <td>Peri Peri Paneer Sandwich (Chef's Special) (G)</td>
+                        <td><input type="number" name="qnty-Peri Peri Paneer Sandwich (Chef's Special) (G)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Peri Peri Paneer Sandwich (Chef's Special) (S)(G)" class="chck" value="150" /></td>
+                        <td>Peri Peri Paneer Sandwich (Chef's Special) (S)(G)</td>
+                        <td><input type="number" name="qnty-Peri Peri Paneer Sandwich (Chef's Special) (S)(G)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Exotic Veg Grill Sandwich (G)" class="chck" value="150" /></td>
+                        <td>Exotic Veg Grill Sandwich (G)</td>
+                        <td><input type="number" name="qnty-Exotic Veg Grill Sandwich (G)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheesy Jalapeno and Corn Sandwich (Chef's Special) (G)" class="chck" value="150" /></td>
+                        <td>Cheesy Jalapeno and Corn Sandwich (Chef's Special) (G)</td>
+                        <td><input type="number" name="qnty-Cheesy Jalapeno and Corn Sandwich (Chef's Special) (G)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheesy Jalapeno and Corn Sandwich (Chef's Special) (J)(G)" class="chck" value="150" /></td>
+                        <td>Cheesy Jalapeno and Corn Sandwich (Chef's Special) (J)(G)</td>
+                        <td><input type="number" name="qnty-Cheesy Jalapeno and Corn Sandwich (Chef's Special) (J)(G)" value="" min="0" max="50"></td>
+                        <td>₹150</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Chutney Sandwich (NG)" class="chck" value="70" /></td>
+                        <td>Cheese Chutney Sandwich (NG)</td>
+                        <td><input type="number" name="qnty-Cheese Chutney Sandwich (NG)" value="" min="0" max="50"></td>
+                        <td>₹70</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Chutney Sandwich (G)" class="chck" value="90" /></td>
+                        <td>Cheese Chutney Sandwich (G)</td>
+                        <td><input type="number" name="qnty-Cheese Chutney Sandwich (G)" value="" min="0" max="50"></td>
+                        <td>₹90</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Chutney Sandwich (J)(NG)" class="chck" value="70" /></td>
+                        <td>Cheese Chutney Sandwich (J)(NG)</td>
+                        <td><input type="number" name="qnty-Cheese Chutney Sandwich (J)(NG)" value="" min="0" max="50"></td>
+                        <td>₹70</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Chutney Sandwich (J)(G)" class="chck" value="90" /></td>
+                        <td>Cheese Chutney Sandwich (J)(G)</td>
+                        <td><input type="number" name="qnty-Cheese Chutney Sandwich (J)(G)" value="" min="0" max="50"></td>
+                        <td>₹90</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Jam Sandwich (NG)" class="chck" value="70" /></td>
+                        <td>Cheese Jam Sandwich (NG)</td>
+                        <td><input type="number" name="qnty-Cheese Jam Sandwich (NG)" value="" min="0" max="50"></td>
+                        <td>₹70</td>
+                    </tr>
+                </table>
+                <h2 class="textOpenToast">Open Toast</h2>
+                <table class="OpenToast">
+                    <tr style="background-color: silver;">
+                        <th>Cart</th>
+                        <th>Dish</th>
+                        <th>Quantity</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Chilly Toast" class="chck" value="80" /></td>
+                        <td>Cheese Chilly Toast</td>
+                        <td><input type="number" name="qnty-Cheese Chilly Toast" value="" min="0" max="50"></td>
+                        <td>₹80</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Chilly Toast (J)" class="chck" value="80" /></td>
+                        <td>Cheese Chilly Toast (J)</td>
+                        <td><input type="number" name="qnty-Cheese Chilly Toast (J)" value="" min="0" max="50"></td>
+                        <td>₹80</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Chilly Garlic Toast (Chef's Special)" class="chck" value="90" /></td>
+                        <td>Chilly Garlic Toast</td>
+                        <td><input type="number" name="qnty-Chilly Garlic Toast (Chef's Special)" value="" min="0" max="50"></td>
+                        <td>₹90</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Chilly Garlic Toast (Chef's Special) (S)" class="chck" value="90" /></td>
+                        <td>Chilly Garlic Toast (S)</td>
+                        <td><input type="number" name="qnty-Chilly Garlic Toast (Chef's Special) (S)" value="" min="0" max="50"></td>
+                        <td>₹90</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Toast" class="chck" value="70" /></td>
+                        <td>Cheese Toast</td>
+                        <td><input type="number" name="qnty-Cheese Toast" value="" min="0" max="50"></td>
+                        <td>₹70</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Toast (J)" class="chck" value="70" /></td>
+                        <td>Cheese Toast (J)</td>
+                        <td><input type="number" name="qnty-Cheese Toast (J)" value="" min="0" max="50"></td>
+                        <td>₹70</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Cheese Garlic Toast" class="chck" value="80" /></td>
+                        <td>Cheese Garlic Toast</td>
+                        <td><input type="number" name="qnty-Cheese Garlic Toast" value="" min="0" max="50"></td>
+                        <td>₹80</td>
+                    </tr>
+                </table>
+                <br>
+                <hr class="hr">
+                <h3 id="menuInfo" style="align-items: center; text-align: center;">*Please make sure everything is correct. THANK YOU!</h3>
+                <hr>
+                <div class="deliveryDetails">
+                    <div>
+                        <label id="fName">First Name:
+                            <input id="fNameinput" name="FirstName" type="text" required>
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label id="lName">Last Name:
+                            <input id="lNameinput" name="LastName" type="text" required>
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label id="deliveryAddress">Address:
+                            <input id="deliveryAddressinput" name="Address" type="text" required>
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label id="deliveryEmail">Email:
+                            <input id="deliveryEmailinput" name="Email" type="email" required>
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label id="deliveryNumber">Phone Number:
+                            <input id="deliveryNumberinput" name="Number" type="number" maxlength="13" required>
+                        </label>
+                    </div>
+                    <p style="font-family: 'Raleway', sans-serif; align-items: center; justify-content: center; text-align: center; font-size: 1.5em;">Total Price: ₹<input type="text" name="price" id="price" disabled /></p>
+                    <button type="submit">PURCHASE</button>
+                </div>
+                <hr>
+            </form>
+        </div>
+        <h3 style="font-family: 'Crimson Text', serif; color: white; font-size: 2em; justify-content: center; text-align: center; align-items: center;">Thank you for doing buisness with us! Have a great evening!</h3>
+        <footer>
+            <h1 style="font-family: 'Lobster', cursive; font-size: 2em;">&copy; Se7en Spices.</h1>
+            <h2>Do visit us again!</h2>
+        </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            function calculateSum() {
+                var sumTotal = 0;
+                $('table tbody tr').each(function() {
+                    var $tr = $(this);
+
+                    if ($tr.find('input[type="checkbox"]').is(':checked')) {
+
+                        var $columns = $tr.find('td').next('td').next('td');
+
+                        var $Qnty = parseInt($tr.find('input[type="number"]').val());
+                        var $Cost = parseInt($columns.next('td').html().split('₹')[1]);
+                        sumTotal += $Qnty * $Cost;
+                    }
+                });
+
+                $("#price").val(sumTotal);
+
+            }
+
+            $('#sum').on('click', function() {
+
+                calculateSum();
+            });
+
+            $("input[type='number']").keyup(function() {
+                calculateSum();
+
+            });
+
+            $("input[type='checkbox']").change(function() {
+                calculateSum();
+
+            });
+
+
+
+        });
+    </script>
+</body>
+
+</html>

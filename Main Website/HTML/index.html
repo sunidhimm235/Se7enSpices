@@ -12,24 +12,22 @@
 
 <body>
     <header class="navigationBar">
-        <ul class="navBarContent">
-            <li class="c1">
-                <div class="dropdownO">
-                    <div class="menuSectionO">
-                        <button class="sectionBtnO"><i class="fas fa-bars"></i></button>
-                        <ul class="sectionSO">
-                            <li class="sectionListO">Menu</li>
-                            <li class="sectionListO">Cart</li>
-                            <li class="sectionListO">Blog</li>
-                            <li class="sectionListO">About</li>
-                        </ul>
-                    </div>
-                </div>
+        <ul class="unorderedLists">
+            <li class="Part1">
+                <h4 class="WebpageName">Se7enSpices</h4>
             </li>
-            <li class="c2">
-                <h4>Se7enSpices</h4>
+            <li class="Part2">
+                <a href="menu.html">Menu</a>
             </li>
-            <li class="c3"><i class="fas fa-cart-plus"></i></li>
+            <li class="Part2">
+                <a href="pizza.html">Pizza</a>
+            </li>
+            <li class="Part2">
+                <a href="blog.html">Blog</a>
+            </li>
+            <li class="Part2">
+                <a href="about.html">About</a>
+            </li>
         </ul>
     </header>
     <main class="midPart">
@@ -41,87 +39,264 @@
             <img id="Img1" src="Photos/logoOriginal.jpg">
         </div>
         <div class="container3">
-            <h1 id="textMenu">Menu:</h1>
-            <div class="dropdown">
-                <div class="menuSection">
-                    <button class="sectionBtn">Indian <i class="fas fa-angle-down" style="float: right; margin-right: 10px; margin-top: 5px;"></i></button>
-                    <ul class="sectionS">
-                        <li class="sectionList"><a href="index.html" target="_self">Indian</a></li>
-                        <li class="sectionList"><a href="indianBread.html" target="_self">Indian Bread</a></li>
-                        <li class="sectionList"><a href="sandwich.html" target="_self">Sandwich</a></li>
-                        <li class="sectionList"><a href="pasta.html" target="_self">Pasta/Farineux</a></li>
-                        <li class="sectionList"><a href="openToast.html" target="_self">Open Toast</a></li>
-                        <li class="sectionList">Pizza</li>
+            <div class="detailsOfRestaurant">
+                <h3 class="moreInfo">Chef: Akshay Gajjar</h3>
+                <h3 class="moreInfo">Based in Ahmedabad, Gujarat, India</h3>
+                <h3 class="moreInfo">Open from 5pm-10pm</h3>
+                <h3 class="moreInfo">Order via Website, DM in Instagram, or Call.</h3>
+                <h3 class="moreInfo">Call at 9898247152</h3>
+                <hr style="height: 2px; background-color: black;">
+            </div>
+            <div class="menuText">Menu:</div>
+            <div class="wrapper">
+                <div class="tabs">
+                    <ul>
+                        <li class="AcTive">
+                            <span>Indian</span>
+                        </li>
+                        <li>
+                            <span>Indian Bread</span>
+                        </li>
+                        <li>
+                            <span>Sandwich</span>
+                        </li>
+                        <li>
+                            <span>Pasta/ Farineux</span>
+                        </li>
+                        <li>
+                            <span>Open Toast</span>
+                        </li>
                     </ul>
                 </div>
-            </div>
-            <div class="slideShow middle">
-                <div class="slides">
-                    <input type="radio" name="slide" id="slide1" checked>
-                    <input type="radio" name="slide" id="slide2">
-                    <input type="radio" name="slide" id="slide3">
-                    <input type="radio" name="slide" id="slide4">
-                    <input type="radio" name="slide" id="slide5">
-                    <input type="radio" name="slide" id="slide6">
-                    <input type="radio" name="slide" id="slide7">
-                    <div class="foodItemContainer s1">
-                        <img class="foodImage" src="Photos/PaneerLababdar.jpg">
-                        <h2 class="menuItem">Panner Lababdar</h2>
-                        <h3 class="itemDescription">Paneer Lababdar is an authentic Punjabi accompaniment that has a luscious combination of cottage cheese and exotic gravy made from tomato puree, chopped onions, cashew nuts and spices.</h3>
-                        <h3 class="itemPrice">200&#8377;</h3>
-                        <button class="addToCartBtn">ADD TO CART</button>
+                <div class="tabContent">
+                    <div class="tabWrap" style="display: block;">
+                        <div class="tab_ConTent">
+                            <div class="tab_Title">Indian</div>
+                            <div class="slideShow middle">
+                                <div class="slides">
+                                    <input type="radio" name="slide" id="slide1" checked>
+                                    <input type="radio" name="slide" id="slide2">
+                                    <input type="radio" name="slide" id="slide3">
+                                    <input type="radio" name="slide" id="slide4">
+                                    <input type="radio" name="slide" id="slide5">
+                                    <input type="radio" name="slide" id="slide6">
+                                    <input type="radio" name="slide" id="slide7">
+                                    <div class="foodItemContainer s1">
+                                        <img class="foodImage" src="Photos/PaneerLababdar.jpg">
+                                        <h2 class="menuItem">Panner Lababdar</h2>
+                                        <h3 class="itemDescription">Paneer Lababdar is an authentic Punjabi accompaniment that has a luscious combination of cottage cheese and exotic gravy made from tomato puree, chopped onions, cashew nuts and spices.</h3>
+                                        <h3 class="itemPrice">200&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/PaneerMakhani.jpg">
+                                        <h2 class="menuItem">Panner Makhani (J) (Chef's Special)</h2>
+                                        <h3 class="itemDescription">Paneer makhani is a popular punjabi dish made with soft paneer cubes cooked in spicy, creamy, rich gravy of tomato, almonds, milk cream and butter. Paneer makhani translates to paneer cooked with butter.</h3>
+                                        <h3 class="itemPrice">210&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/KadhaiPaneer.jpg">
+                                        <h2 class="menuItem">Kadhai Paneer (S)(Chef's Special)</h2>
+                                        <h3 class="itemDescription">This restaurant style Kadai Paneer gets its unique flavor from freshly ground spices like coriander and red chilies! It is one of the most popular paneer recipes. It’s there on the menu in almost all Indian restaurants.</h3>
+                                        <h3 class="itemPrice">200&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/CheeseButterMasala.jpg">
+                                        <h2 class="menuItem" style="margin-bottom: 50px;">Cheese Butter Masala</h2>
+                                        <h3 class="itemDescription" style="margin-bottom: 0px;">Cheese cubes dipped in a rich aromatic orange gravy.</h3>
+                                        <h3 class="itemPrice">230&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/PaneerButterMasla.jpg">
+                                        <h2 class="menuItem">Panner Butter Masala (J)</h2>
+                                        <h3 class="itemDescription">Paneer butter masala which has a creamy tomato-based sauce, and a rich curry made with butter, cashews and cream. It pairs best with naan and rice!</h3>
+                                        <h3 class="itemPrice">220&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/KajuButterMasala.jpg">
+                                        <h2 class="menuItem">Kaju Curry (Chef's Special)</h2>
+                                        <h3 class="itemDescription">Roasted cashew nuts (kaju) cooked in a tomato, onion, and spices based rich and creamy sauce, is a delicious restaurant style Vegetarian Punjabi Curry perfect for festivals and special occasions.</h3>
+                                        <h3 class="itemPrice">230&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/SubzKohlapuri.jfif">
+                                        <h2 class="menuItem">Subz Kolhapuri (S)</h2>
+                                        <h3 class="itemDescription">Carrots, beans, cauliflower, peas and more nutritious veggies cooked in a spicy masala called Kolhapuri style. This Kolhapuri masala is very useful so making it in a large bacth and keeping it handy is a good idea.</h3>
+                                        <h3 class="itemPrice">200&#8377;</h3>
+                                    </div>
+                                </div>
+                                <div class="navigation">
+                                    <label for="slide1" class="bar"></label>
+                                    <label for="slide2" class="bar"></label>
+                                    <label for="slide3" class="bar"></label>
+                                    <label for="slide4" class="bar"></label>
+                                    <label for="slide5" class="bar"></label>
+                                    <label for="slide6" class="bar"></label>
+                                    <label for="slide7" class="bar"></label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="foodItemContainer">
-                        <img class="foodImage" src="Photos/PaneerMakhani.jpg">
-                        <h2 class="menuItem">Panner Makhani (J)(Chef's Special)</h2>
-                        <h3 class="itemDescription">Paneer makhani is a popular punjabi dish made with soft paneer cubes cooked in spicy, creamy, rich gravy of tomato, almonds, milk cream and butter. Paneer makhani translates to paneer cooked with butter.</h3>
-                        <h3 class="itemPrice">210&#8377;</h3>
-                        <button class="addToCartBtn">ADD TO CART</button>
+                    <div class="tabWrap" style="display: none;">
+                        <div class="tab_ConTent">
+                            <div class="tab_Title">Indian Bread</div>
+                            <div class="slideShow middle">
+                                <div class="slides">
+                                    <input type="radio" name="slide" id="slide8" checked>
+                                    <div class="foodItemContainer s8">
+                                        <img class="foodImage" src="Photos/LacchaParatha.jpg">
+                                        <h2 class="menuItem">Laccha Paratha</h2>
+                                        <h3 class="itemDescription">A multi layered shallow fried north Indian flat bread, is an epitome of cooking art which tells us how one can make delicious and tempting food from common unassuming ingredients by just deploying a new technique.</h3>
+                                        <h3 class="itemPrice">30&#8377;</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="foodItemContainer">
-                        <img class="foodImage" src="Photos/KadhaiPaneer.jpg">
-                        <h2 class="menuItem">Kadhai Paneer (S)(Chef's Special)</h2>
-                        <h3 class="itemDescription">This restaurant style Kadai Paneer gets its unique flavor from freshly ground spices like coriander and red chilies! It is one of the most popular paneer recipes. It’s there on the menu in almost all Indian restaurants.</h3>
-                        <h3 class="itemPrice">200&#8377;</h3>
-                        <button class="addToCartBtn">ADD TO CART</button>
+                    <div class="tabWrap" style="display: none;">
+                        <div class="tab_ConTent">
+                            <div class="tab_Title">Sandwich</div>
+                            <div class="slideShow middle">
+                                <div class="slides">
+                                    <input type="radio" name="slide" id="slide9" checked>
+                                    <input type="radio" name="slide" id="slide10">
+                                    <input type="radio" name="slide" id="slide11">
+                                    <input type="radio" name="slide" id="slide12">
+                                    <input type="radio" name="slide" id="slide13">
+                                    <input type="radio" name="slide" id="slide14">
+                                    <input type="radio" name="slide" id="slide15">
+                                    <div class="foodItemContainer s9">
+                                        <img class="foodImage" src="Photos/TandooriPaneerSandwich.jpg">
+                                        <h2 class="menuItem">Tandoori Paneer Sandwich (S)</h2>
+                                        <h3 class="itemDescription">Spicy tandoori filling made with cottage cheese and green bell peppers, stuffed in bread slices. It uses the tandoori cooking method which makes everything taste better.</h3>
+                                        <h3 class="itemPrice">150&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/PizzaCheeseSandwich.jpg">
+                                        <h2 class="menuItem">Pizza Cheese Sandwich (J)(Chef's Special)</h2>
+                                        <h3 class="itemDescription">Home made pizza sauce with vegetables and lots of cheese filled in!</h3>
+                                        <h3 class="itemPrice">150&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/PeriPeriCheeseSandwich.jpg">
+                                        <h2 class="menuItem">Peri Peri Paneer Sandwich (J)<br>(Chef's Special)</h2>
+                                        <h3 class="itemDescription">Paneer dipped in a spicy chessy peri peri and grilled. Peri-peri is a cultivar of Capsicum frutescens that was originally produced by Portuguese explorers in Mozambique.</h3>
+                                        <h3 class="itemPrice">150&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/ExoticVegGrillSandwich.jpg">
+                                        <h2 class="menuItem">Exotic Veg Grilled Sandwich (J)</h2>
+                                        <h3 class="itemDescription">Exotic veggies dipped in classic Indian green chutney along with Cheese and grilled to perfection.</h3>
+                                        <h3 class="itemPrice">150&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/CheesyJalapenoAndCornSandwich.jpg">
+                                        <h2 class="menuItem">Cheesy Jalapeno and Corn Sandwich (J)(Chef's Special)</h2>
+                                        <h3 class="itemDescription">Spicy jalapeno aand sweet corn along with creamy jalapeno and cheese sauce, stuffed in bread slices and grilled.</h3>
+                                        <h3 class="itemPrice">150&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/CheeseChutneySandwich.webp">
+                                        <h2 class="menuItem">Cheese Chutney Sandwich (J)</h2>
+                                        <h3 class="itemDescription">Classic Ahmedabad's favorite green chutney (Coriander Sauce) and cheese sandwich!(Non-Grill)</h3>
+                                        <h3 class="itemPrice">70&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/CheeseJamSandwich.jpg">
+                                        <h2 class="menuItem">Cheese Jam Sandwich</h2>
+                                        <h3 class="itemDescription">Jam along with double cheese stuffed, in buttery bread slices.(Non-Grill)</h3>
+                                        <h3 class="itemPrice">70&#8377;</h3>
+                                    </div>
+                                </div>
+                                <div class="navigation">
+                                    <label for="slide9" class="bar"></label>
+                                    <label for="slide10" class="bar"></label>
+                                    <label for="slide11" class="bar"></label>
+                                    <label for="slide12" class="bar"></label>
+                                    <label for="slide13" class="bar"></label>
+                                    <label for="slide14" class="bar"></label>
+                                    <label for="slide15" class="bar"></label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="foodItemContainer">
-                        <img class="foodImage" src="Photos/CheeseButterMasala.jpg">
-                        <h2 class="menuItem" style="margin-bottom: 50px;">Cheese Butter Masala</h2>
-                        <h3 class="itemDescription" style="margin-bottom: 0px;">Cheese cubes dipped in a rich aromatic orange gravy.</h3>
-                        <h3 class="itemPrice">230&#8377;</h3>
-                        <button class="addToCartBtn">ADD TO CART</button>
+                    <div class="tabWrap" style="display: none;">
+                        <div class="tab_ConTent">
+                            <div class="tab_Title">Pasta/Farineux</div>
+                            <div class="slideShow middle">
+                                <div class="slides">
+                                    <input type="radio" name="slide" id="slide16" checked>
+                                    <input type="radio" name="slide" id="slide17">
+                                    <input type="radio" name="slide" id="slide18">
+                                    <div class="foodItemContainer s16">
+                                        <img class="foodImage" src="Photos/PenneArrabiata.jpg">
+                                        <h2 class="menuItem">Penne Arrabiata (S)(J)(Chef's Special)</h2>
+                                        <h3 class="itemDescription">Veggies tossed along pasta mixed with arrabbiata sauce, which is a spicy sauce for pasta made from garlic, tomatoes, and dried red chili peppers cooked in olive oil. </h3>
+                                        <h3 class="itemPrice">150&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/PenneAlfredo.jpg">
+                                        <h2 class="menuItem">Penne Alfredo (J)</h2>
+                                        <h3 class="itemDescription">Penne pasta and exotic veggies tossed in olive oil and mixed with midly spicy alfredo sauce, which is a simple but elegant creamy.</h3>
+                                        <h3 class="itemPrice">150&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/PenneInMixedSauce.jpg">
+                                        <h2 class="menuItem">Penne in Mixed Sauce (J)(Chef's Special)</h2>
+                                        <h3 class="itemDescription">Penne and exotic veggies tossed in olive oil mixed with rich pink sauce, AKA mixed sauce!</h3>
+                                        <h3 class="itemPrice">160&#8377;</h3>
+                                    </div>
+                                </div>
+                                <div class="navigation2">
+                                    <label for="slide16" class="bar"></label>
+                                    <label for="slide17" class="bar"></label>
+                                    <label for="slide18" class="bar"></label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="foodItemContainer">
-                        <img class="foodImage" src="Photos/PaneerButterMasla.jpg">
-                        <h2 class="menuItem">Panner Butter Masala (J)</h2>
-                        <h3 class="itemDescription">Paneer butter masala which has a creamy tomato-based sauce, and a rich curry made with butter, cashews and cream. It pairs best with naan and rice!</h3>
-                        <h3 class="itemPrice">220&#8377;</h3>
-                        <button class="addToCartBtn">ADD TO CART</button>
+                    <div class="tabWrap" style="display: none;">
+                        <div class="tab_ConTent">
+                            <div class="tab_Title">Open Toast</div>
+                            <div class="slideShow middle">
+                                <div class="slides">
+                                    <input type="radio" name="slide" id="slide19" checked>
+                                    <input type="radio" name="slide" id="slide20">
+                                    <input type="radio" name="slide" id="slide21">
+                                    <input type="radio" name="slide" id="slide22">
+                                    <div class="foodItemContainer s19">
+                                        <img class="foodImage" src="Photos/ChiliCheeseToast.jpg">
+                                        <h2 class="menuItem">Chesse Chilly Toast (J)</h2>
+                                        <h3 class="itemDescription">Buttery bread slice topped with cheese, garlic and spicy. <br>(Two toast pieces)</h3>
+                                        <h3 class="itemPrice">80&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/ChilliGarlicToast.jpg">
+                                        <h2 class="menuItem">Chilly Garlic Toast (S)(Chef's Special)</h2>
+                                        <h3 class="itemDescription">Buttery bread and garlic slice topped with various vegtables which makes it very delicious! <br>(Two toast pieces)</h3>
+                                        <h3 class="itemPrice">90&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/NoImageAvaiable.jpg">
+                                        <h2 class="menuItem">Chesse Toast (J)</h2>
+                                        <h3 class="itemDescription">Classic bread, toasted, topped with blend of cheese. <br>(Two toast pieces)</h3>
+                                        <h3 class="itemPrice">70&#8377;</h3>
+                                    </div>
+                                    <div class="foodItemContainer">
+                                        <img class="foodImage" src="Photos/NoImageAvaiable.jpg">
+                                        <h2 class="menuItem">Cheese Garlic Toast</h2>
+                                        <h3 class="itemDescription">A classic take on garlic blend of cheese.</h3>
+                                        <h3 class="itemPrice">80&#8377;</h3>
+                                    </div>
+                                </div>
+                                <div class="navigation3">
+                                    <label for="slide19" class="bar"></label>
+                                    <label for="slide20" class="bar"></label>
+                                    <label for="slide21" class="bar"></label>
+                                    <label for="slide22" class="bar"></label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="foodItemContainer">
-                        <img class="foodImage" src="Photos/KajuButterMasala.jpg">
-                        <h2 class="menuItem">Kaju Curry (Chef's Special)</h2>
-                        <h3 class="itemDescription">Roasted cashew nuts (kaju) cooked in a tomato, onion, and spices based rich and creamy sauce, is a delicious restaurant style Vegetarian Punjabi Curry perfect for festivals and special occasions.</h3>
-                        <h3 class="itemPrice">230&#8377;</h3>
-                        <button class="addToCartBtn">ADD TO CART</button>
-                    </div>
-                    <div class="foodItemContainer">
-                        <img class="foodImage" src="Photos/SubzKohlapuri.jfif">
-                        <h2 class="menuItem">Subz Kolhapuri (S)</h2>
-                        <h3 class="itemDescription">Carrots, beans, cauliflower, peas and more nutritious veggies cooked in a spicy masala called Kolhapuri style. This Kolhapuri masala is very useful so making it in a large bacth and keeping it handy is a good idea.</h3>
-                        <h3 class="itemPrice">200&#8377;</h3>
-                        <button class="addToCartBtn">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="navigation">
-                    <label for="slide1" class="bar"></label>
-                    <label for="slide2" class="bar"></label>
-                    <label for="slide3" class="bar"></label>
-                    <label for="slide4" class="bar"></label>
-                    <label for="slide5" class="bar"></label>
-                    <label for="slide6" class="bar"></label>
-                    <label for="slide7" class="bar"></label>
                 </div>
             </div>
             <div class="menuInfo">
@@ -130,47 +305,28 @@
                 <h3 id="menuInfo">S: Spicy</h3>
                 <hr>
             </div>
-        </div>
-        <div>
-            <section class="container content-section">
-                <h2 class="section-header">CART</h2>
-                <div class="cart-row">
-                    <span class="cart-item cart-header cart-column">ITEM</span>
-                    <span class="cart-price cart-header cart-column">PRICE</span>
-                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-                </div>
-                <div class="cart-items">
-                </div>
-                <div class="cart-total">
-                    <strong class="cart-total-title">Total</strong>
-                    <span class="cart-total-price">0&#8377;</span>
-                </div>
-                <div class="deliveryDetails">
-                    <label class="deliveryAddress" for="Address">Address:</label>
-                    <br>
-                    <input class="deliveryAddressinput" type="text" value="Address" required>
-                    <br>
-                    <label class="deliveryEmail" for="Email">Email:</label>
-                    <br>
-                    <input class="deliveryEmailinput" type="email" value="Email" required>
-                    <br>
-                    <label class="deliveryNumber" for="Number">Phone Number:</label>
-                    <br>
-                    <input class="deliveryNumberinput" type="number" value="Number" maxlength="13" required>
-                </div>
-                <button class="btn btn-primary btn-purchase" type="submit" onclick="screenshot();">PURCHASE</button>
-            </section>
+            <div class="GotoMenu">
+                <h3 class="ReachMenu">Like our menu?</h3>
+                <a class="ReachMenuBTN" href="menu.html">Click here to ORDER!</a>
+                <h3 class="ReachMenu">Now Order Se7enSpices Pizza!!</h3>
+                <a class="ReachMenuBTN" href="pizza.html">Click here to ORDER Pizza!</a>
+                <hr style="height: 2px; background-color: black;">
+            </div>
         </div>
         <div class="container4">
             <div class="aboutContainer">
                 <img id="chefImage" src="Photos/chefImage.jpg">
                 <h2 id="aboutInfo">Interested to know more about our chef?</h2>
-                <button id="toAboutBtn">Click here!</button>
+                <a id="toAboutBtn">
+                    <h2><a class="toaboutbtn" href="about.html">CLICK HERE!</a></h2>
+                </a>
             </div>
             <div class="blogContainer">
                 <img id="blogContainerImage" src="Photos/blogContainerImage.jpg">
                 <h2 id="blogInfo">Visit our blog know more about dishes!</h2>
-                <button id="toBlogBtn">Click here!</button>
+                <a id="toBlogBtn">
+                    <h2><a class="toblogbtn" href="blog.html">CLICK HERE!</a></h2>
+                </a>
             </div>
         </div>
         <footer>

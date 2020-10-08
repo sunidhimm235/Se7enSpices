@@ -1,0 +1,1516 @@
+@media screen and (min-width: 1200px) {
+    .navigationBar {
+        height: 70px;
+        background-color: black;
+        width: 1200px;
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .unorderedLists {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .Part1 .WebpageName {
+        float: left;
+        color: white;
+        margin-top: -1px;
+        padding: 13px 20px;
+        display: block;
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        cursor: pointer;
+    }
+    .Part2 {
+        float: right;
+    }
+    .Part2 a {
+        color: white;
+        font-size: 2.2em;
+        font-weight: 100;
+        font-family: 'Oxygen', sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 13px 20px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .Part2 a:hover {
+        background-color: gray;
+    }
+    .midPart {
+        position: relative;
+        width: 1200px;
+        height: max-content;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .TextBlog {
+        color: black;
+        text-decoration: underline;
+        font-size: 3.5em;
+        letter-spacing: 5px;
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .blogContainer1 {
+        width: 900px;
+        height: 300px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP1 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer1 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer2 {
+        width: 900px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP2 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer2 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer3 {
+        width: 900px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP3 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer3 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer4 {
+        width: 900px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP4 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer4 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer5 {
+        width: 900px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP5 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer5 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    footer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+    /*Add code before this.*/
+    /*.heading2 {
+        margin-top: 30px;
+        color: black;
+        font-size: 2em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        position: absolute;
+        margin-left: 30px;
+    }
+    .Logo {
+        width: 992px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BP1 {
+        margin-top: 60px;
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    .BP2 {
+        margin-top: 60px;
+        margin-right: 10px;
+        width: 300px;
+        height: 300px;
+        float: right;
+    }
+    .BP4 {
+        width: 300px;
+        height: 300px;
+        outline: 0;
+        border: 0;
+        margin-left: 33px;
+    }
+    .BP5 {
+        margin-left: 25px;
+        margin-top: 10px;
+        width: 450px;
+        height: 450px;
+        outline: 0;
+        border: 0;
+        float: left;
+    }
+    .BP3 {
+        float: right;
+        margin-right: 25px;
+        margin-top: 10px;
+        width: 450px;
+        height: 450px;
+        outline: 0;
+        border: 0;
+    }
+    .p1 {
+        float: left;
+        margin-left: 25px;
+        margin-top: 10px;
+        width: 450px;
+        height: 450px;
+        font-size: 1.5em;
+        font-family: 'Merriweather', serif;
+    }
+    .p2 {
+        float: right;
+        margin-right: 25px;
+        margin-top: 10px;
+        width: 450px;
+        height: 450px;
+        font-size: 1.5em;
+        font-family: 'Merriweather', serif;
+    }
+    .h2 {
+        margin-left: 540px;
+        font-size: 2em;
+        font-family: 'Merriweather', serif;
+        text-decoration: underline;
+    }
+    #back-to-top-btn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 26px;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+        outline: none;
+        border: 3px solid #333;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+        transition-property: background-color, color;
+    }
+    #back-to-top-btn:hover,
+    #back-to-top-btn:focus {
+        background-color: #333;
+        color: #fff;
+    }
+    .btnEntrance {
+        animation-duration: 0.5s;
+        animation-fill-mode: both;
+        animation-name: btnEntrance;
+    }
+    @keyframes btnEntrance {
+        from {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    .btnExit {
+        animation-duration: 0.25s;
+        animation-fill-mode: both;
+        animation-name: btnExit;
+    }
+    @keyframes btnExit {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0);
+        }
+    }*/
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .navigationBar {
+        height: 70px;
+        background-color: black;
+        width: 1000px;
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .unorderedLists {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .Part1 .WebpageName {
+        float: left;
+        color: white;
+        margin-top: -1px;
+        padding: 13px 20px;
+        display: block;
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        cursor: pointer;
+    }
+    .Part2 {
+        float: right;
+    }
+    .Part2 a {
+        color: white;
+        font-size: 2.2em;
+        font-weight: 100;
+        font-family: 'Oxygen', sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 13px 20px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .Part2 a:hover {
+        background-color: gray;
+    }
+    .midPart {
+        position: relative;
+        width: 1000px;
+        height: max-content;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .TextBlog {
+        color: black;
+        text-decoration: underline;
+        font-size: 3.5em;
+        letter-spacing: 5px;
+        margin-top: 30px;
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+    }
+    .blogContainer1 {
+        width: 900px;
+        height: 300px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP1 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer1 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer2 {
+        width: 900px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP2 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer2 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer3 {
+        width: 900px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP3 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer3 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer4 {
+        width: 900px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP4 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer4 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer5 {
+        width: 900px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP5 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer5 {
+        width: 590px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    footer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .navigationBar {
+        height: 63px;
+        background-color: black;
+        width: 800px;
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .unorderedLists {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .Part1 .WebpageName {
+        float: left;
+        color: white;
+        margin-top: -1px;
+        padding: 13px 20px;
+        display: block;
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        cursor: pointer;
+    }
+    .Part2 {
+        float: right;
+    }
+    .Part2 a {
+        color: white;
+        font-size: 1.8em;
+        font-weight: 100;
+        font-family: 'Oxygen', sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 13px 20px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .Part2 a:hover {
+        background-color: gray;
+    }
+    .midPart {
+        position: relative;
+        width: 800px;
+        height: max-content;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .TextBlog {
+        color: black;
+        text-decoration: underline;
+        font-size: 3.5em;
+        letter-spacing: 5px;
+        margin-top: 30px;
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+    }
+    .blogContainer1 {
+        width: 700px;
+        height: 300px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP1 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer1 {
+        width: 390px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 17px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer2 {
+        width: 700px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP2 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer2 {
+        width: 390px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer3 {
+        width: 700px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP3 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer3 {
+        width: 390px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 17px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer4 {
+        width: 700px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP4 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer4 {
+        width: 390px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 17px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer5 {
+        width: 700px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP5 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer5 {
+        width: 390px;
+        height: 180px;
+        background-color: gray;
+        float: right;
+        margin-top: 60px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 17px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    footer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .navigationBar {
+        height: 48px;
+        background-color: black;
+        width: 600px;
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .unorderedLists {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .Part1 .WebpageName {
+        float: left;
+        color: white;
+        margin-top: -1px;
+        padding: 13px 20px;
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        cursor: pointer;
+    }
+    .Part2 {
+        float: right;
+    }
+    .Part2 a {
+        color: white;
+        font-size: 1em;
+        font-weight: 100;
+        font-family: 'Oxygen', sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 13px 20px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .Part2 a:hover {
+        background-color: gray;
+    }
+    .midPart {
+        position: relative;
+        width: 600px;
+        height: max-content;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .TextBlog {
+        color: black;
+        text-decoration: underline;
+        font-size: 3.5em;
+        letter-spacing: 5px;
+        margin-top: 30px;
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+    }
+    .blogContainer1 {
+        width: 500px;
+        height: 300px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP1 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer1 {
+        width: 190px;
+        height: 250px;
+        background-color: gray;
+        float: right;
+        margin-top: 25px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer2 {
+        width: 500px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP2 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer2 {
+        width: 190px;
+        height: 250px;
+        background-color: gray;
+        float: right;
+        margin-top: 25px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer3 {
+        width: 500px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP3 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer3 {
+        width: 190px;
+        height: 250px;
+        background-color: gray;
+        float: right;
+        margin-top: 25px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer4 {
+        width: 500px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP4 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer4 {
+        width: 190px;
+        height: 250px;
+        background-color: gray;
+        float: right;
+        margin-top: 25px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 14.5px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    .blogContainer5 {
+        width: 500px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .BP5 {
+        width: 270px;
+        height: 270px;
+        float: left;
+        margin-left: -20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .textContainer5 {
+        width: 190px;
+        height: 250px;
+        background-color: gray;
+        float: right;
+        margin-top: 25px;
+        margin-right: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        font-size: 14.5px;
+        font-family: 'Crimson Text', serif;
+        text-align: left;
+    }
+    footer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .navigationBar {
+        height: 44px;
+        background-color: black;
+        width: 400px;
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .unorderedLists {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .Part1 .WebpageName {
+        float: left;
+        color: white;
+        margin-top: -1px;
+        padding: 13px 20px;
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        cursor: pointer;
+    }
+    .Part2 {
+        float: right;
+    }
+    .Part2 a {
+        color: white;
+        font-size: .9em;
+        font-weight: 100;
+        font-family: 'Oxygen', sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 13px 8px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .Part2 a:hover {
+        background-color: gray;
+    }
+    .midPart {
+        position: relative;
+        width: 400px;
+        height: 200vh;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .TextBlog {
+        color: black;
+        text-decoration: underline;
+        font-size: 3.5em;
+        letter-spacing: 5px;
+        margin-top: 30px;
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+    }
+    .blogContainer1 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP1 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer1 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 13px;
+        font-family: 'Crimson Text', serif;
+    }
+    .blogContainer2 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP2 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer2 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 13px;
+        font-family: 'Crimson Text', serif;
+    }
+    .blogContainer3 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP3 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer3 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 13px;
+        font-family: 'Crimson Text', serif;
+    }
+    .blogContainer4 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP4 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer4 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 12.5px;
+        font-family: 'Crimson Text', serif;
+    }
+    .blogContainer5 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP5 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer5 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 12.5px;
+        font-family: 'Crimson Text', serif;
+    }
+    footer {
+        margin-top: 275px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .navigationBar {
+        height: 41px;
+        background-color: black;
+        width: 300px;
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .unorderedLists {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .Part1 .WebpageName {
+        float: left;
+        color: white;
+        margin-top: -1px;
+        padding: 13px 10px;
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        cursor: pointer;
+    }
+    .Part2 {
+        float: right;
+    }
+    .Part2 a {
+        color: white;
+        font-size: .7em;
+        font-weight: 100;
+        font-family: 'Oxygen', sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 13px 5px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .Part2 a:hover {
+        background-color: gray;
+    }
+    .midPart {
+        position: relative;
+        width: 300px;
+        height: 200vh;
+        margin-top: -19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .TextBlog {
+        color: black;
+        text-decoration: underline;
+        font-size: 3.5em;
+        letter-spacing: 5px;
+        margin-top: 30px;
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+    }
+    .blogContainer1 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP1 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer1 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 13px;
+        font-family: 'Crimson Text', serif;
+    }
+    .blogContainer2 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP2 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer2 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 12.5px;
+        font-family: 'Crimson Text', serif;
+    }
+    .blogContainer3 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP3 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer3 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 13px;
+        font-family: 'Crimson Text', serif;
+    }
+    .blogContainer4 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP4 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer4 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 12.5px;
+        font-family: 'Crimson Text', serif;
+    }
+    .blogContainer5 {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-top: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .BP5 {
+        width: 170px;
+        height: 170px;
+        margin-top: -15px;
+        border-radius: 5px;
+    }
+    .textContainer5 {
+        width: 270px;
+        height: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: gray;
+        margin-top: -15px;
+        padding-top: 5px;
+        border-radius: 5px;
+        font-size: 12.5px;
+        font-family: 'Crimson Text', serif;
+    }
+    footer {
+        margin-top: 275px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        color: lightgrey;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
+    }
+}
