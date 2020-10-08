@@ -770,7 +770,7 @@
     .midPart {
         position: relative;
         width: 800px;
-        height: 468vh;
+        height: max-content;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
@@ -1129,7 +1129,7 @@
     .midPart {
         position: relative;
         width: 600px;
-        height: 472vh;
+        height: max-content;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
@@ -1488,7 +1488,7 @@
     .midPart {
         position: relative;
         width: 400px;
-        height: 513.5vh;
+        height: max-content;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
@@ -1847,7 +1847,7 @@
     .midPart {
         position: relative;
         width: 300px;
-        height: 592vh;
+        height: max-content;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;

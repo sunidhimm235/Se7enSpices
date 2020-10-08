@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Se7en Spices</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="Photos/logoOriginal.jpg">
     <link rel="stylesheet" type="text/css" href="CSS/pizza.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:wght@600&family=Dancing+Script:wght@700&family=Kanit&family=Lobster&family=Oxygen&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Libre+Caslon+Display&family=Raleway:wght@500&display=swap" rel="stylesheet">
@@ -14,7 +15,7 @@
     <header class="navigationBar">
         <ul class="unorderedLists">
             <li class="Part1">
-                <h4 class="WebpageName">Se7enSpices</h4>
+                <a class="WebpageName" href="index.html">Se7enSpices</a>
             </li>
             <li class="Part2">
                 <a href="index.html">Home</a>
@@ -26,10 +27,10 @@
                 <a href="pizza.html" style="color: black;">Pizza</a>
             </li>
             <li class="Part2">
-                <a>Blog</a>
+                <a href="blog.html">Blog</a>
             </li>
             <li class="Part2">
-                <a>About</a>
+                <a href="about.html">About</a>
             </li>
         </ul>
     </header>
@@ -55,10 +56,10 @@
                         <th>Cost</th>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" name="Cheese Burst Pizza with Tandoori Sauce" class="chck" value="0" /></td>
-                        <td>Cheese Burst Pizza with Tandoori Sauce</td>
+                        <td><input type="checkbox" name="Cheese Burst Margharita" class="chck" value="200" /></td>
+                        <td>Cheese Burst Margharita</td>
                         <td><input type="number" name="qnty-PaneerLababdar" value="" min="0" max="50"></td>
-                        <td>₹10.00</td>
+                        <td>₹200.00</td>
                     </tr>
                 </table>
             </div>
@@ -102,8 +103,8 @@
                         <th>Cost</th>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" name="Red Tandoori" class="chck" value="Red Tandoori Sauce" /></td>
-                        <td>Red Tandoori Sauce</td>
+                        <td><input type="checkbox" name="Red Pizza Sauce" class="chck" value="Red Tandoori Sauce" /></td>
+                        <td>Red Pizza Sauce</td>
                         <td><input type="number" name="Quantity" value="1" min="1" max="1"></td>
                         <td>₹0.00</td>
                     </tr>
@@ -208,6 +209,11 @@
             <h3 id="menuInfo">*Please make sure everything is correct. THANK YOU!</h3>
             <h3 id="menuInfo">*For Bulk orders, please contact us through our Instagram account. THANK YOU!</h3>
             <hr style="height: 2px; background-color: black;">
+            <div class="specialInstructions">
+                <label id="specialInstructions">Special Instructions:
+                    <textarea id="specialInstructionsinput" name="Special Instructions" type="text"></textarea>
+                </label>
+            </div>
             <div class="deliveryDetails">
                 <div>
                     <label id="fName">First Name:
@@ -278,7 +284,7 @@
                 calculateSum();
             });
 
-            $("input[type='number']").keyup(function() {
+            $("input[type='number']").change(function() {
                 calculateSum();
 
             });
