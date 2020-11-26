@@ -46,7 +46,7 @@
     .midPart {
         position: relative;
         width: 1200px;
-        height: 328.9vh;
+        height: 370vh;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
@@ -77,6 +77,38 @@
         color: white;
         text-decoration: underline;
         font-family: 'Crimson Text', serif;
+    }
+    .textDSM {
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+    }
+    .DSM {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #e5e5e5;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .DSM th {
+        padding: 12px 15px;
+        text-align: center;
+    }
+    .DSM td {
+        padding: 12px 40px;
     }
     .textIndian {
         margin-left: 290px;
@@ -407,7 +439,7 @@
     .midPart {
         position: relative;
         width: 1000px;
-        height: 331.5vh;
+        height: 370vh;
         margin-top: -33px;
         margin-left: auto;
         margin-right: auto;
@@ -438,6 +470,38 @@
         color: white;
         text-decoration: underline;
         font-family: 'Crimson Text', serif;
+    }
+    .textDSM {
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+    }
+    .DSM {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #e5e5e5;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .DSM th {
+        padding: 12px 15px;
+        text-align: center;
+    }
+    .DSM td {
+        padding: 12px 40px;
     }
     .textIndian {
         margin-left: 240px;
@@ -550,7 +614,7 @@
         border-collapse: collapse;
         margin-top: 80px;
         margin-left: 10px;
-        font-size: 0.7em;
+        font-size: 0.68em;
         min-width: 400px;
         border-radius: 5px;
         overflow: hidden;
@@ -568,7 +632,7 @@
         padding: 12px 15px;
     }
     .Sandwich td {
-        padding: 12px 15px;
+        padding: 10px 10px;
     }
     .textOpenToast {
         float: right;
@@ -801,6 +865,38 @@
         color: white;
         text-decoration: underline;
         font-family: 'Crimson Text', serif;
+    }
+    .textDSM {
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+    }
+    .DSM {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #e5e5e5;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .DSM th {
+        padding: 12px 15px;
+        text-align: center;
+    }
+    .DSM td {
+        padding: 12px 40px;
     }
     .textIndian {
         color: white;
@@ -1161,6 +1257,38 @@
         text-decoration: underline;
         font-family: 'Crimson Text', serif;
     }
+    .textDSM {
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+    }
+    .DSM {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #e5e5e5;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .DSM th {
+        padding: 12px 15px;
+        text-align: center;
+    }
+    .DSM td {
+        padding: 12px 30px;
+    }
     .textIndian {
         color: white;
         font-size: 1.5em;
@@ -1270,7 +1398,7 @@
     }
     .Sandwich {
         border-collapse: collapse;
-        font-size: 0.8em;
+        font-size: 0.7em;
         min-width: 400px;
         border-radius: 5px;
         overflow: hidden;
@@ -1519,6 +1647,38 @@
         color: white;
         text-decoration: underline;
         font-family: 'Crimson Text', serif;
+    }
+    .textDSM {
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+    }
+    .DSM {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #e5e5e5;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .DSM th {
+        padding: 12px 15px;
+        text-align: center;
+    }
+    .DSM td {
+        padding: 12px 10px;
     }
     .textIndian {
         color: white;
@@ -1878,6 +2038,37 @@
         color: white;
         text-decoration: underline;
         font-family: 'Crimson Text', serif;
+    }
+    .textDSM {
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Crimson Text', serif;
+        text-decoration: underline;
+    }
+    .DSM {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.6em;
+        max-width: 270px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        font-family: sans-serif;
+        background-color: #e5e5e5;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .DSM th {
+        padding: 12px 10px;
+    }
+    .DSM td {
+        padding: 12px 10px;
     }
     .textIndian {
         color: white;
